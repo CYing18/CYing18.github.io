@@ -35,7 +35,7 @@ My research interests lie at the intersection of Computational Pathology, Multim
 
 [SlideChat: A Large Vision-Language Assistant for Whole-Slide Pathology Image Understanding](https://arxiv.org/abs/2410.11761)
 
-**Ying Chen***, Guoan Wang*, Yuanfeng Ji*, Yanjun Li, Jin Ye, Tianbin Li, Bin Zhang, Nana Pei, Rongshan Yu, Yu Qiao, Junjun He
+**Ying Chen**#, Guoan Wang#, Yuanfeng Ji#, Yanjun Li, Jin Ye, Tianbin Li, Bin Zhang, Nana Pei, Rongshan Yu, Yu Qiao, Junjun He
 
 [**Project**](https://uni-medical.github.io/SlideChat.github.io/) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 [**Arxiv**](https://arxiv.org/abs/2410.11761) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
@@ -72,7 +72,7 @@ Hao Li, **Ying Chen**, Yifei Chen, Rongshan Yu, Wenxian Yang, Liansheng Wang, Bo
 
 [Tracing unknown tumor origins with a biological-pathway-based transformer model](https://www.cell.com/cell-reports-methods/fulltext/S2667-2375(24)00153-X)
 
-Jiajing Xie*, **Ying Chen***, Shijie Luo*, Wenxian Yang, Yuxiang Lin, Liansheng Wang, Xin Ding, Mengsha Tong, Rongshan Yu
+Jiajing Xie#, **Ying Chen***#, Shijie Luo#, Wenxian Yang, Yuxiang Lin, Liansheng Wang, Xin Ding, Mengsha Tong, Rongshan Yu
 
 [**Paper**](https://www.cell.com/cell-reports-methods/fulltext/S2667-2375(24)00153-X) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 [**Code**](https://github.com/xmuyulab/BPformer) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
@@ -85,7 +85,7 @@ Jiajing Xie*, **Ying Chen***, Shijie Luo*, Wenxian Yang, Yuxiang Lin, Liansheng 
   
 [RAFNet: Restricted attention fusion network for sleep apnea detection](https://www.sciencedirect.com/science/article/abs/pii/S0893608023001454)
 
-**Ying Chen***, Huijun Yue*, Ruifeng Zou, Wenbin Lei, Wenjun Ma, Xiaomao Fan
+**Ying Chen**#, Huijun Yue#, Ruifeng Zou, Wenbin Lei, Wenjun Ma, Xiaomao Fan
 
 [**Paper**](https://www.sciencedirect.com/science/article/abs/pii/S0893608023001454) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 </div>
