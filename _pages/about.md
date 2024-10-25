@@ -21,6 +21,8 @@ I am currently a Master’s student in the Department of Computer Science at Xia
 
 My research interests lie at the intersection of Computational Pathology, Multimodal Large Language Models, and AI for Medicine. I am deeply passionate about advancing the frontiers of Medical AI and **aspire to pursue a Ph.D.** to continue contributing to cutting-edge research in these fields.
 
+ Welcome to contact me via email at cying2023@stu.xmu.edu.cn.
+
 # 🔥 News
 - *2024.10*: &nbsp; Thrilled to announce our latest work **SlideChat**, the first vision-language assistant capable of understanding gigapixel whole-slide images. 
 - *2024.06*: &nbsp; One paper was accepted by **Cell Reports Methods**.
