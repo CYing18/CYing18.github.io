@@ -31,7 +31,7 @@ My research interests lie at the intersection of Computational Pathology, Multim
 
 <style>
     .paper-box img {
-        width: 350px; /* 指定固定宽度 */
+        width: 365px; /* 指定固定宽度 */
         height: 200px; /* 指定固定高度 */
         object-fit: cover; /* 确保图像内容不变形 */
     }
