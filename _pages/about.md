@@ -29,6 +29,14 @@ My research interests lie at the intersection of Computational Pathology, Multim
 - *2024.02*: &nbsp; One paper was accepted by **CVPR2024**.
 - *2023.05*: &nbsp; One paper was accepted by **Neural Networks**.
 
+<style>
+    .paper-box img {
+        width: 150px; /* 指定固定宽度 */
+        height: 150px; /* 指定固定高度 */
+        object-fit: cover; /* 确保图像内容不变形 */
+    }
+</style>
+
 # 📝 Preprint
 (#: Co-first authors)
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='images/SlideChat.png' alt="sym" width="100%"></div></div>
