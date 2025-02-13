@@ -30,7 +30,7 @@ My research focuses on how AI can transform healthcare, with particular interest
 
 <style>
     .paper-box {
-        margin-bottom: 10px; /* Reduce the space between paper boxes */
+        margin-bottom: 3px; /* Reduce the space between paper boxes */
     }
 
     .paper-box img {
@@ -40,12 +40,12 @@ My research focuses on how AI can transform healthcare, with particular interest
     }
 
     .paper-box-text {
-        margin-top: 5px; /* Reduce space above text */
-        margin-bottom: 5px; /* Reduce space below text */
+        margin-top: 3px; /* Reduce space above text */
+        margin-bottom: 3px; /* Reduce space below text */
     }
 
     .badge {
-        margin-bottom: 5px; /* Adjust badge spacing if needed */
+        margin-bottom: 3px; /* Adjust badge spacing if needed */
     }
 </style>
 
