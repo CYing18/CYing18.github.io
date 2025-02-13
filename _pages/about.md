@@ -29,29 +29,10 @@ My research focuses on how AI can transform healthcare, with particular interest
 - *2023.05*: &nbsp; One paper was accepted by **Neural Networks**.
 
 <style>
-    .paper-box {
-        display: flex; /* Enable flexbox layout */
-        margin-bottom: 10px; /* Space between paper boxes */
-        padding: 0;
-    }
-
     .paper-box img {
-        width: 300px; /* Set image width */
-        height: 150px; /* Set image height */
-        object-fit: cover; /* Ensure image is not distorted */
-        margin-right: 1px; /* Space between image and text */
-    }
-
-    .paper-box-text {
-        display: flex;
-        flex-direction: column; /* Stack text vertically */
-        justify-content: flex-start; /* Align text to the top */
-        margin-top: 0;
-        margin-left: 0; /* Remove or reduce left margin to move the text closer */
-    }
-
-    .badge {
-        margin-bottom: 5px; /* Space between badge and image */
+        width: 280px; /* 指定固定宽度 */
+        height: 130px; /* 指定固定高度 */
+        object-fit: cover; /* 确保图像内容不变形 */
     }
 </style>
 
