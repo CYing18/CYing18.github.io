@@ -39,7 +39,7 @@ My research focuses on how AI can transform healthcare, with particular interest
         width: 300px; /* Set image width */
         height: 150px; /* Set image height */
         object-fit: cover; /* Ensure image is not distorted */
-        margin-right: 10px; /* Space between image and text */
+        margin-right: 1px; /* Space between image and text */
     }
 
     .paper-box-text {
