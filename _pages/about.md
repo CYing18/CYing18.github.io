@@ -31,7 +31,7 @@ My research focuses on how AI can transform healthcare, with particular interest
 <style>
     .paper-box {
         display: flex; /* Enable flexbox layout */
-        margin-bottom: 10px; /* Reduce the space between paper boxes */
+        margin-bottom: 10px; /* Space between paper boxes */
         padding: 0;
     }
 
@@ -39,6 +39,7 @@ My research focuses on how AI can transform healthcare, with particular interest
         width: 300px; /* Set image width */
         height: 150px; /* Set image height */
         object-fit: cover; /* Ensure image is not distorted */
+        margin-right: 10px; /* Space between image and text */
     }
 
     .paper-box-text {
@@ -46,6 +47,7 @@ My research focuses on how AI can transform healthcare, with particular interest
         flex-direction: column; /* Stack text vertically */
         justify-content: flex-start; /* Align text to the top */
         margin-top: 0;
+        margin-left: 0; /* Remove or reduce left margin to move the text closer */
     }
 
     .badge {
