@@ -101,12 +101,13 @@ Jiajing Xie#, **Ying Chen**#, Shijie Luo#, Wenxian Yang, Yuxiang Lin, Liansheng 
 </div>
 
 # 📖 Educations
-- *2023.09 - 2026.06 (now)*, Master in Computer Science and Technology, Xiamen University, advised by [Prof. Rongshan Yu](https://scholar.google.com/citations?user=Uh1EpKQAAAAJ&hl=zh-CN&oi=ao). 
-- *2019.09 - 2023.06*, Bachelor in Artificial Intelligence, South China Normal University, advised by [Prof. Xiaomao Fan](https://scholar.google.com/citations?user=zDwIj2wAAAAJ&hl=zh-CN&oi=ao).
+- *2023.09 - 2026.06*, Xiamen University, Master in Computer Science and Technology.
+
+- *2019.09 - 2023.06*, South China Normal University, Bachelor in Artificial Intelligence.
 
 
 # 💻 Internships
-- *2024.05 - present*, Shanghai Artificial Intelligence Laboratory, advised by [Dr. Junjun He](https://scholar.google.com/citations?user=Z4LgebkAAAAJ&hl=zh-CN).
+- *2024.05 - present*, Shanghai Artificial Intelligence Laboratory.
 
 # 🎖 Honors and Awards
 - Scholarship of South China Normal University, 2020/2021/2022/2023.
