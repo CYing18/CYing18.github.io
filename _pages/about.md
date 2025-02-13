@@ -57,6 +57,35 @@ My research focuses on how AI can transform healthcare, with particular interest
 
 # 📝 Selected Publications [[Full List](https://scholar.google.com/citations?user=bYfM8fEAAAAJ&hl=zh-CN)]<span style="font-size: x-small; font-style: italic;"> (*#: Co-first authors*)</span>
 
+<div class='paper-box'>
+    <div class='paper-box-image'>
+        <div>
+            <div class="badge">Arxiv</div>
+            <img src='images/SlideChat.png' alt="sym">
+        </div>
+    </div>
+    <div class='paper-box-text' markdown="1">
+        [SlideChat: A Large Vision-Language Assistant for Whole-Slide Pathology Image Understanding](https://arxiv.org/abs/2410.11761)
+        **Ying Chen**#, Guoan Wang#, Yuanfeng Ji#, Yanjun Li, Jin Ye, Tianbin Li, Bin Zhang, Nana Pei, Rongshan Yu, Yu Qiao, Junjun He
+        [**Project**](https://uni-medical.github.io/SlideChat.github.io/) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+        [**Paper**](https://arxiv.org/abs/2410.11761) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+    </div>
+</div>
+
+<div class='paper-box'>
+    <div class='paper-box-image'>
+        <div>
+            <div class="badge">Arxiv</div>
+            <img src='images/SurvMamba.png' alt="sym">
+        </div>
+    </div>
+    <div class='paper-box-text' markdown="1">
+        [Survmamba: State space model with multi-grained multi-modal interaction for survival prediction](https://arxiv.org/abs/2404.08027)
+        **Ying Chen**, Jiajing Xie, Yuxiang Lin, Yuhang Song, Wenxian Yang, Rongshan Yu
+        [**Paper**](https://arxiv.org/abs/2404.08027) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+    </div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='images/SlideChat.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
