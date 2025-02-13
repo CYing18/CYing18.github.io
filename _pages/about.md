@@ -39,7 +39,7 @@ My research interests lie at the intersection of Computational Pathology, Multim
     }
 </style>
 
-# 📝 Preprint
+# 📝 Selected Publications [[Full List](https://scholar.google.com/citations?user=bYfM8fEAAAAJ&hl=zh-CN)]
 (#: Co-first authors)
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='images/SlideChat.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -64,8 +64,6 @@ My research interests lie at the intersection of Computational Pathology, Multim
 </div>
 </div>
 
-# 📝 Selected Publications [[Full List](https://scholar.google.com/citations?user=bYfM8fEAAAAJ&hl=zh-CN)]
-(#: Co-first authors)
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2024</div><img src='images/Five.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
