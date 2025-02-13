@@ -30,7 +30,7 @@ My research focuses on how AI can transform healthcare, with particular interest
 
 <style>
     .paper-box img {
-        width: 280px; /* 指定固定宽度 */
+        width: 320px; /* 指定固定宽度 */
         height: 130px; /* 指定固定高度 */
         object-fit: cover; /* 确保图像内容不变形 */
     }
