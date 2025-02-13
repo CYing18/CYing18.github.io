@@ -69,7 +69,9 @@ My research interests lie at the intersection of Computational Pathology, Multim
 [Generalizable Whole Slide Image Classification with Fine-Grained Visual-Semantic Interaction](https://openaccess.thecvf.com/content/CVPR2024/papers/Li_Generalizable_Whole_Slide_Image_Classification_with_Fine-Grained_Visual-Semantic_Interaction_CVPR_2024_paper.pdf)
 
 Hao Li, **Ying Chen**, Yifei Chen, Rongshan Yu, Wenxian Yang, Liansheng Wang, Bowen Ding, Yuchen Han
-IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024.
+
+IEEE Conference on Computer Vision and Pattern Recognition (**CVPR**), 2024.
+
 [**Paper**](https://openaccess.thecvf.com/content/CVPR2024/papers/Li_Generalizable_Whole_Slide_Image_Classification_with_Fine-Grained_Visual-Semantic_Interaction_CVPR_2024_paper.pdf) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 [**Code**](https://github.com/ls1rius/WSI_FiVE) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 </div>
@@ -81,6 +83,8 @@ IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024.
 [RAFNet: Restricted attention fusion network for sleep apnea detection](https://www.sciencedirect.com/science/article/abs/pii/S0893608023001454)
 
 **Ying Chen**#, Huijun Yue#, Ruifeng Zou, Wenbin Lei, Wenjun Ma, Xiaomao Fan
+
+<span>Neural Networks, 2023. </span><span style="color: gray;">IF: 6.0</span>
 
 [**Paper**](https://www.sciencedirect.com/science/article/abs/pii/S0893608023001454) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 </div>
