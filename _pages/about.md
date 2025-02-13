@@ -26,7 +26,6 @@ My research interests lie at the intersection of Computational Pathology, Multim
  Welcome to contact me via email at cying2023@stu.xmu.edu.cn.
 
 # 🔥 News
-- *2024.10*: &nbsp; Thrilled to announce our latest work **SlideChat**, the first vision-language assistant capable of understanding gigapixel whole-slide images. 
 - *2024.06*: &nbsp; One paper was accepted by **Cell Reports Methods**.
 - *2024.02*: &nbsp; One paper was accepted by **CVPR2024**.
 - *2023.05*: &nbsp; One paper was accepted by **Neural Networks**.
@@ -49,7 +48,7 @@ My research interests lie at the intersection of Computational Pathology, Multim
 **Ying Chen**#, Guoan Wang#, Yuanfeng Ji#, Yanjun Li, Jin Ye, Tianbin Li, Bin Zhang, Nana Pei, Rongshan Yu, Yu Qiao, Junjun He
 
 [**Project**](https://uni-medical.github.io/SlideChat.github.io/) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-[**Arxiv**](https://arxiv.org/abs/2410.11761) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**Paper**](https://arxiv.org/abs/2410.11761) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 </div>
 </div>
 
@@ -60,7 +59,7 @@ My research interests lie at the intersection of Computational Pathology, Multim
 
 **Ying Chen**, Jiajing Xie, Yuxiang Lin, Yuhang Song, Wenxian Yang, Rongshan Yu
 
-[**Arxiv**](https://arxiv.org/abs/2404.08027) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**Paper**](https://arxiv.org/abs/2404.08027) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 </div>
 </div>
 
@@ -70,7 +69,7 @@ My research interests lie at the intersection of Computational Pathology, Multim
 [Generalizable Whole Slide Image Classification with Fine-Grained Visual-Semantic Interaction](https://openaccess.thecvf.com/content/CVPR2024/papers/Li_Generalizable_Whole_Slide_Image_Classification_with_Fine-Grained_Visual-Semantic_Interaction_CVPR_2024_paper.pdf)
 
 Hao Li, **Ying Chen**, Yifei Chen, Rongshan Yu, Wenxian Yang, Liansheng Wang, Bowen Ding, Yuchen Han
-
+IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024.
 [**Paper**](https://openaccess.thecvf.com/content/CVPR2024/papers/Li_Generalizable_Whole_Slide_Image_Classification_with_Fine-Grained_Visual-Semantic_Interaction_CVPR_2024_paper.pdf) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 [**Code**](https://github.com/ls1rius/WSI_FiVE) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 </div>
@@ -100,13 +99,12 @@ Jiajing Xie#, **Ying Chen**#, Shijie Luo#, Wenxian Yang, Yuxiang Lin, Liansheng 
 </div>
 </div>
 
-# 📖 Educations
+# 📖 Education
 - *2023.09 - 2026.06*, Xiamen University, Master in Computer Science and Technology.
-
 - *2019.09 - 2023.06*, South China Normal University, Bachelor in Artificial Intelligence.
 
 
-# 💻 Internships
+# 💻 Internship
 - *2024.05 - present*, Shanghai Artificial Intelligence Laboratory.
 
 # 🎖 Honors and Awards
