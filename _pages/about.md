@@ -31,14 +31,14 @@ My research focuses on how AI can transform healthcare, with particular interest
 <style>
     .paper-box img {
         width: 320px; /* 指定固定宽度 */
-        height: 130px; /* 指定固定高度 */
+        height: 150px; /* 指定固定高度 */
         object-fit: cover; /* 确保图像内容不变形 */
     }
 </style>
 
 # 📝 Selected Publications [[Full List](https://scholar.google.com/citations?user=bYfM8fEAAAAJ&hl=zh-CN)]<span style="font-size: x-small; font-style: italic;"> (*#: Co-first authors*)</span>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='images/SlideChat.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='images/SlideChat.png' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [SlideChat: A Large Vision-Language Assistant for Whole-Slide Pathology Image Understanding](https://arxiv.org/abs/2410.11761)
