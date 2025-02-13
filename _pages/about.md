@@ -97,9 +97,25 @@ IEEE Conference on Computer Vision and Pattern Recognition (**CVPR**), 2024.
 
 Jiajing Xie#, **Ying Chen**#, Shijie Luo#, Wenxian Yang, Yuxiang Lin, Liansheng Wang, Xin Ding, Mengsha Tong, Rongshan Yu
 
+Cell Reports Methods, 2024. 
+
 [**Paper**](https://www.cell.com/cell-reports-methods/fulltext/S2667-2375(24)00153-X) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 [**Code**](https://github.com/xmuyulab/BPformer) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 [**Website**](https://cup.bpformer.com/index/) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">BIBM</div><img src='images/BPformer.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[SE-MSCNN: a lightweight multi-scaled fusion network for sleep apnea detection using single-lead ECG signals](https://ieeexplore.ieee.org/abstract/document/9669358)
+
+Xianhui Chen#, **Ying Chen**#, Wenjun Ma, Xiaomao Fan, Ye Li
+
+IEEE International Conference on Bioinformatics and Biomedicine (**BIBM**), 2021. 
+
+[**Paper**](https://ieeexplore.ieee.org/abstract/document/9669358) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**Code**](https://github.com/Bettycxh/Toward-Sleep-Apnea-Detection-with-Lightweight-Multi-scaled-Fusion-Network) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 </div>
 </div>
 
