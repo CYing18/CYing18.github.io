@@ -30,22 +30,29 @@ My research focuses on how AI can transform healthcare, with particular interest
 
 <style>
     .paper-box {
-        margin-bottom: 3px; /* Reduce the space between paper boxes */
+        margin-bottom: 5px; /* Reduce the space between each paper box */
+        padding: 0; /* Remove any unnecessary padding */
+        display: flex;
+        flex-direction: column;
     }
 
     .paper-box img {
-        width: 300px; /* Fixed width */
+        width: 100%; /* Ensure image fills its container */
         height: 150px; /* Fixed height */
-        object-fit: cover; /* Ensure image content isn't distorted */
+        object-fit: cover; /* Ensure image content is not distorted */
+    }
+
+    .paper-box-image {
+        margin-bottom: 5px; /* Reduce the space below the image */
     }
 
     .paper-box-text {
-        margin-top: 3px; /* Reduce space above text */
-        margin-bottom: 3px; /* Reduce space below text */
+        margin-top: 0; /* Remove top margin */
+        margin-bottom: 5px; /* Reduce bottom margin */
     }
 
     .badge {
-        margin-bottom: 3px; /* Adjust badge spacing if needed */
+        margin-bottom: 5px; /* Adjust spacing below the badge */
     }
 </style>
 
