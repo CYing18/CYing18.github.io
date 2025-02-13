@@ -105,7 +105,7 @@ Cell Reports Methods, 2024.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">BIBM</div><img src='images/BPformer.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">BIBM</div><img src='images/bibm.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [SE-MSCNN: a lightweight multi-scaled fusion network for sleep apnea detection using single-lead ECG signals](https://ieeexplore.ieee.org/abstract/document/9669358)
