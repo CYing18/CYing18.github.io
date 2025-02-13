@@ -28,6 +28,13 @@ My research focuses on how AI can transform healthcare, with particular interest
 - *2024.02*: &nbsp; One paper was accepted by **CVPR2024**.
 - *2023.05*: &nbsp; One paper was accepted by **Neural Networks**.
 
+# 📖 Education
+- *2023.09 - 2026.06*, Xiamen University, Master in Computer Science and Technology.
+- *2019.09 - 2023.06*, South China Normal University, Bachelor in Artificial Intelligence.
+
+# 💻 Internship
+- *2024.05 - present*, Shanghai Artificial Intelligence Laboratory.
+
 <style>
     .paper-box img {
         width: 320px; /* 指定固定宽度 */
@@ -117,13 +124,6 @@ IEEE International Conference on Bioinformatics and Biomedicine (**BIBM**), 2021
 </div>
 </div>
 
-# 📖 Education
-- *2023.09 - 2026.06*, Xiamen University, Master in Computer Science and Technology.
-- *2019.09 - 2023.06*, South China Normal University, Bachelor in Artificial Intelligence.
-
-
-# 💻 Internship
-- *2024.05 - present*, Shanghai Artificial Intelligence Laboratory.
 
 # 🎖 Honors and Awards
 - Scholarship of South China Normal University, 2020/2021/2022/2023.
