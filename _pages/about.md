@@ -36,7 +36,7 @@ My research focuses on how AI can transform healthcare, with particular interest
     }
 </style>
 
-# 📝 Selected Publications [[Full List](https://scholar.google.com/citations?user=bYfM8fEAAAAJ&hl=zh-CN)]<span style="font-size: smaller; font-style: italic;">(*#: Co-first authors*)</span>
+# 📝 Selected Publications [[Full List](https://scholar.google.com/citations?user=bYfM8fEAAAAJ&hl=zh-CN)]<span style="font-size: x-small; font-style: italic;"> (*#: Co-first authors*)</span>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='images/SlideChat.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
