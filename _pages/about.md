@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/b90b8eb9-52aa-486d-813f-7d70d13c6c5b)---
+
 permalink: /
 title: ""
 excerpt: ""
@@ -132,4 +132,6 @@ IEEE International Conference on Bioinformatics and Biomedicine (**BIBM**), 2021
 - Scholarship of South China Normal University, 2020/2021/2022/2023.
 - Second Prize of CUMCM, 2021.
 
-
+# 🗂️ Professional Activities
+- Conference Reviewers: CVPR, ICCV.
+- Journal Reviewers: BSCP, JDIM.
