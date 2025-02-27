@@ -24,6 +24,7 @@ My research focuses on how AI can transform healthcare, with particular interest
  Welcome to contact me via email at cying2023@stu.xmu.edu.cn.
 
 # 🔥 News
+- *2025.02*: &nbsp; One paper was accepted by **CVPR2025**.
 - *2024.06*: &nbsp; One paper was accepted by **Cell Reports Methods**.
 - *2024.02*: &nbsp; One paper was accepted by **CVPR2024**.
 - *2023.05*: &nbsp; One paper was accepted by **Neural Networks**.
@@ -45,12 +46,14 @@ My research focuses on how AI can transform healthcare, with particular interest
 
 # 📝 Selected Publications [[Full List](https://scholar.google.com/citations?user=bYfM8fEAAAAJ&hl=zh-CN)]<span style="font-size: x-small; font-style: italic;"> (*#: Co-first authors*)</span>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='images/SlideChat.png' alt="sym" width="90%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR2025</div><img src='images/SlideChat.png' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [SlideChat: A Large Vision-Language Assistant for Whole-Slide Pathology Image Understanding](https://arxiv.org/abs/2410.11761)
 
 **Ying Chen**#, Guoan Wang#, Yuanfeng Ji#, Yanjun Li, Jin Ye, Tianbin Li, Bin Zhang, Nana Pei, Rongshan Yu, Yu Qiao, Junjun He
+
+IEEE Conference on Computer Vision and Pattern Recognition (**CVPR**), 2025.
 
 [**Project**](https://uni-medical.github.io/SlideChat.github.io/) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 [**Paper**](https://arxiv.org/abs/2410.11761) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
