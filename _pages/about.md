@@ -134,4 +134,4 @@ IEEE International Conference on Bioinformatics and Biomedicine (**BIBM**), 2021
 
 # 🗂️ Professional Activities
 - Conference Reviewers: CVPR, ICCV.
-- Journal Reviewers: BSCP, JDIM.
+- Journal Reviewers: TCSVT, BSCP, JDIM.
