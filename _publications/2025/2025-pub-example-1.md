@@ -2,7 +2,7 @@
 title:          Slidechat-A large vision-language assistant for whole-slide pathology image understanding
 date:           2025-02-28 00:01:00 +0800
 selected:       true
-pub:            "CVPR 2025"
+pub:            "CVPR"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 pub_last:       ' <span class="badge badge-pill badge-custom badge-secondary">Conference</span>'
