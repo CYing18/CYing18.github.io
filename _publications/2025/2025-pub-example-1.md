@@ -1,28 +1,29 @@
 ---
-title:          Unlocking Medical Video Generation by Scaling Granularly-annotated Medical Videos
-date:           2025-04-20 00:01:00 +0800
+title:          Slidechat-A large vision-language assistant for whole-slide pathology image understanding
+date:           2025-02-28 00:01:00 +0800
 selected:       true
-pub:            "arXiv"
+pub:            "CVPR 2025"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 pub_last:       ' <span class="badge badge-pill badge-custom badge-secondary">Conference</span>'
 pub_date:       "2025"
 
 abstract: >-
-  We introduce MedVideoCap-55K, the first large-scale, diverse, and caption-rich dataset designed for medical video generation. Comprising over 55,000 curated clips from real-world clinical scenarios, it addresses the critical need for both visual fidelity and medical accuracy in applications such as training, education, and simulation.
+  We present SlideChat, the first vision-language assistant capable of understanding gigapixel whole-slide images, exhibiting excellent multimodal conversational capability and response complex instruction across diverse pathology scenarios. To support its development, we created SlideInstruction, the largest instruction-following dataset for WSIs consisting of 4.2K WSI captions and 176K VQA pairs with multiple categories. Furthermore, we propose SlideBench, a multimodal benchmark that incorporates captioning and VQA tasks to assess SlideChat's capabilities in varied clinical settings such as microscopy, diagnosis.
   
-cover:          assets/images/covers/medvideocap.png
+cover:          assets/images/covers/SlideChat.png
 authors:
-  - Rongsheng Wang
-  - Junying Chen
-  - Ke Ji
-  - Zhenyang Cai
-  - Shunian Chen
-  - Yunjin Yang
-  - Benyou Wang†
+  - Ying Chen*
+  - Guoan Wang*
+  - Yuanfeng Ji†
+  - Yanjun Li
+  - Jin Ye
+  - Tianbin Li
+  - Ming Hu
+  - Rongshan Yu
+  - Yu Qiao
+  - Junjun He†
 links:
-  Project: https://freedomintelligence.github.io/MedGen
-  Paper: https://arxiv.org/
-  Code: https://github.com/FreedomIntelligence/MedGen
-  Dataset: https://huggingface.co/datasets/FreedomIntelligence/MedVideoCap-55K
+  Paper: https://arxiv.org/abs/2410.11761
+  Cite: assets/bibtex/chen2024slidechat.bib
 ---
