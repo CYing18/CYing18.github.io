@@ -58,10 +58,10 @@ awards:
   date: 2019/2020/2021/2022
 - name: Second Prize of CUMCM
   date: 2021
-# - name: First Prize of Baidu PaddlePaddle AGI Hackathon
-#   date: 2024
-# - name: Third Prize of Digital Medical Technology and Application Innovation Competition
-#   date: 2023
+- name: Second Prize of MathorCup Mathematical Modeling Challenge, 
+  date: 2021
+- name: Second Prize of Teddy Cup Data Analysis Vocational Skills Competition
+  date: 2021
 # - name: Third Prize of Baichuan Intelligence and Amazon Cloud AGI Hackathon
 #   date: 2023
 # - name: Silver of Kaggle RSNA Screening Mammography Breast Cancer Detection
