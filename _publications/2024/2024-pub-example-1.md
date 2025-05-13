@@ -1,8 +1,8 @@
 ---
 title:          Generalizable whole slide image classification with fine-grained visual-semantic interaction
-date:           2025-03-18 00:01:00 +0800
+date:           2024-03-18 00:01:00 +0800
 selected:       true
-pub:            CVPR 2024
+pub:            CVPR
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 pub_last:       ' <span class="badge badge-pill badge-custom badge-secondary">Conference</span><span class="badge badge-pill badge-custom badge-warning">Poster</span>'
