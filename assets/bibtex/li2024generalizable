@@ -1,0 +1,7 @@
+@inproceedings{li2024generalizable,
+  title={Generalizable whole slide image classification with fine-grained visual-semantic interaction},
+  author={Li, Hao and Chen, Ying and Chen, Yifei and Yu, Rongshan and Yang, Wenxian and Wang, Liansheng and Ding, Bowen and Han, Yuchen},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={11398--11407},
+  year={2024}
+}
