@@ -1,27 +1,25 @@
 ---
-title:          XrayGLM： Summarizing Chest X-ray Reports Using a Large Medical Visual Language Model
-date:           2024-07-17 00:01:00 +0800
+title:          Survmamba-State space model with multi-grained multi-modal interaction for survival prediction
+date:           2024-04-11 00:01:00 +0800
 selected:       true
-pub:            "RSNA’s Cutting-Edge Research"
+pub:            "Arxiv"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
-pub_last:       ' <span class="badge badge-pill badge-custom badge-secondary">Conference</span><span class="badge badge-pill badge-custom badge-success">Oral</span>'
+pub_last:       ' <span class="badge badge-pill badge-custom badge-secondary">Technical Report</span>'
 pub_date:       "2024"
 
 abstract: >-
   We introduce XrayGLM, a conversational medical visual language model that analyzes and summarizes chest X-rays, aimed at improving domain-specific expertise for radiology tasks compared to general large models.
   
-cover:          assets/images/covers/xrayglm.png
+cover:          assets/images/covers/SurvMamba.png
 authors:
-  - Lin Li
-  - Rongsheng Wang
-  - Qimin Yang
-  - Jiexin Chen
-  - Patrick Cheong-Iao Pang
-  - Yapeng Wang
-  - Ka-Hou Chan
-  - Tao Tan
-  - Jie Ma†
+  - Ying Chen
+  - Jiajing Xie
+  - Yuxiang Lin
+  - Yuhang Song
+  - Wenxian Yang
+  - Rongshan Yu†
 links:
-  Code: https://github.com/WangRongsheng/XrayGLM
+  Paper: https://arxiv.org/abs/2404.08027
+  Cite:
 ---
