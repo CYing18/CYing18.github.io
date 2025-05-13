@@ -54,28 +54,28 @@ experience:
 
 
 awards:
-- name: Silver of Kaggle AI Mathematical Olympiad - Progress Prize 2
-  date: 2025
-- name: Outstanding Award of JingDong Health - Global AI Innovation Competition
-  date: 2024
-- name: First Prize of Baidu PaddlePaddle AGI Hackathon
-  date: 2024
-- name: Third Prize of Digital Medical Technology and Application Innovation Competition
-  date: 2023
-- name: Third Prize of Baichuan Intelligence and Amazon Cloud AGI Hackathon
-  date: 2023
-- name: Silver of Kaggle RSNA Screening Mammography Breast Cancer Detection
-  date: 2023
-- name: Outstanding Award of IEEE UV 2022 "Vision Meets Algae" Object Detection Challenge
-  date: 2022
-- name: <a href="https://www.paddlepaddle.org.cn/ppdemd?n=/ppdemd/%E7%8E%8B%E8%8D%A3%E8%83%9C">Baidu PaddlePaddle Developers Experts</a>
+- name: Scholarship of South China Normal University
+  date: 2019/2020/2021/2022
+- name: Second Prize of CUMCM
   date: 2021
+# - name: First Prize of Baidu PaddlePaddle AGI Hackathon
+#   date: 2024
+# - name: Third Prize of Digital Medical Technology and Application Innovation Competition
+#   date: 2023
+# - name: Third Prize of Baichuan Intelligence and Amazon Cloud AGI Hackathon
+#   date: 2023
+# - name: Silver of Kaggle RSNA Screening Mammography Breast Cancer Detection
+#   date: 2023
+# - name: Outstanding Award of IEEE UV 2022 "Vision Meets Algae" Object Detection Challenge
+#   date: 2022
+# - name: <a href="https://www.paddlepaddle.org.cn/ppdemd?n=/ppdemd/%E7%8E%8B%E8%8D%A3%E8%83%9C">Baidu PaddlePaddle Developers Experts</a>
+#   date: 2021
 
 service:
-- name: Reviewer of <a href="https://www.embs.org/jbhi/">Journal of Biomedical and Health Informatics (JBHI)</a>
-- name: Reviewer of <a href="https://2025.ieeeicme.org/">ICME 2025</a>
+- name: Conference Reviewer of CVPR, ICCV
+- name: Journal Reviewer of TCSVT, BSCP, JDIM
 
 # Feel free to replace the footer text if you would like to, but I will greatly appreciate it 
 # if you keep the link to the template so that more people can benefit from it. Thanks!
 footer_text: >-
-  Copyright © 2024 <a href="https://github.com/WangRongsheng" target="_blank">Rongsheng Wang</a>. All Rights Reserved.
+  Copyright © 2024 <a href="https://github.com/CYing18" target="_blank">Ying Chen</a>. All Rights Reserved.
