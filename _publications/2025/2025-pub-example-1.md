@@ -15,7 +15,7 @@ cover:          assets/images/covers/SlideChat.png
 authors:
   - Ying Chen*
   - Guoan Wang*
-  - Yuanfeng Ji†
+  - Yuanfeng Ji*†
   - Yanjun Li
   - Jin Ye
   - Tianbin Li
