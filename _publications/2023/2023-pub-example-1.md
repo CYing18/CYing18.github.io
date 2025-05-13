@@ -1,23 +1,22 @@
 ---
-title:          PCTMF-Net： Heart Sound Classification with Parallel CNNs-Transformer and Second-Order Spectral Analysis
-date:           2023-08-01 00:01:00 +0800
+title:          RAFNet: Restricted attention fusion network for sleep apnea detection
+date:           2023-05-01 00:01:00 +0800
 selected:       true
-pub:            "The Visual Computer"
+pub:            "Neural Networks"
 pub_last:       ' <span class="badge badge-pill badge-custom badge-dark">Journal</span>'
 pub_date:       "2023"
 abstract: >-
-  We propose a Parallel CNNs-Transformer network with multi-scale feature context aggregation (PCTMF-Net) for electrocardiogram heart sound classification, which combines CNNs and a transformer encoder to extract hierarchical features and achieves state-of-the-art performance on publicly available datasets.
+  In this paper, we focus on SA detection with single lead ECG signals, which can be easily collected by a portable device. Under this context, we propose a restricted attention fusion network called RAFNet for sleep apnea detection. 
 
-cover:          assets/images/covers/pctmf.png
+cover:          assets/images/covers/RAFNet.png
 authors:
-  - Rongsheng Wang
-  - Yaofei Duan
-  - Yukun Li
-  - Dashun Zheng
-  - Xiaohong Liu
-  - ChanTong Lam
-  - Tao Tan†
+  - Ying Chen
+  - Huijun Yue
+  - Ruifeng Zou
+  - Wenbin Lei
+  - Wenjun Ma
+  - Xiaomao Fan†
 links:
-  Paper: https://link.springer.com/article/10.1007/s00371-023-03031-5
-  Cite: assets/bibtex/wang2023pctm.bib
+  Paper: https://www.sciencedirect.com/science/article/abs/pii/S0893608023001454
+  Cite: assets/bibtex/chen2023rafnet.bib
 ---
