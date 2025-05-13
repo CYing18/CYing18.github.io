@@ -21,5 +21,5 @@ authors:
   - Rongshan Yu†
 links:
   Paper: https://arxiv.org/abs/2404.08027
-  Cite:
+  Cite: assets/bibtex/chen2024survmamba.bib
 ---
