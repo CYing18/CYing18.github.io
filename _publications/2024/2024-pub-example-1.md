@@ -1,17 +1,17 @@
 ---
-title:          Fine-Tuning Medical Language Models for Enhanced Long-Contextual Understanding and Domain Expertise
-date:           2024-06-18 00:01:00 +0800
+title:          Generalizable whole slide image classification with fine-grained visual-semantic interaction
+date:           2025-03-18 00:01:00 +0800
 selected:       true
-pub:            "Long-Context Foundation Models (LCFM) at ICML 2024"
+pub:            CVPR 2024
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 pub_last:       ' <span class="badge badge-pill badge-custom badge-secondary">Conference</span><span class="badge badge-pill badge-custom badge-warning">Poster</span>'
 pub_date:       "2024"
 
 abstract: >-
-  This study investigates the decline in long-context understanding for medical LLMs after domain-specific fine-tuning, conducting experiments to determine the best composition of general and medical training data to balance diagnostic knowledge with comprehensive reading abilities.
+  In this paper we propose a novel "Fine-grained Visual-Semantic Interaction" (FiVE) framework for WSI classification. It is designed to enhance the model's generalizability by leveraging the interaction between localized visual patterns and fine-grained pathological semantics. 
   
-cover:          assets/images/covers/lcfm_lc.png
+cover:          assets/images/covers/Five.png
 authors:
   - Qimin Yang
   - Rongsheng Wang
@@ -19,6 +19,6 @@ authors:
   - Runqi Su
   - Tao Tan†
 links:
-  Paper: https://arxiv.org/abs/2407.11536
-  Poster: assets/images/poster/icml2024-ws.jpeg
+  Paper: https://openaccess.thecvf.com/content/CVPR2024/html/Li_Generalizable_Whole_Slide_Image_Classification_with_Fine-Grained_Visual-Semantic_Interaction_CVPR_2024_paper.html
+  Cite: assets/images/poster/icml2024-ws.jpeg
 ---
