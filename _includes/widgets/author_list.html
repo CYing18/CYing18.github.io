@@ -1,15 +1,22 @@
 {%- assign authors = include.authors -%}
 {%- assign has_eq_contrib = false -%}
+{%- assign has_cofirst = false -%}
 {%- assign i = 0 -%}
+
 {%- for _key in authors -%}
-    {%- assign last_char = _key | slice: -1, 1%}
-    {%- if last_char == "†" -%}
-        {%- assign key = _key | split: "†" | first -%}
-        {%- assign mark = "†" -%}
+    {%- assign mark = "" -%}
+    {%- assign key = _key -%}
+
+    {%- if _key contains "†" -%}
+        {%- assign key = key | split: "†" | first -%}
+        {%- assign mark = mark | append: "†" -%}
         {%- assign has_eq_contrib = true -%}
-    {%- else -%}
-        {%- assign key = _key -%}
-        {%- assign mark = "" -%}
+    {%- endif -%}
+
+    {%- if key contains "*" -%}
+        {%- assign key = key | split: "*" | first -%}
+        {%- assign mark = "*" | append: mark -%}
+        {%- assign has_cofirst = true -%}
     {%- endif -%}
 
     {%- assign info = site.data.authors[key] -%}
@@ -21,11 +28,11 @@
     {%- endif -%}
 
     {%- if info['bold'] == true -%}
-        {%- assign display_name = name | append: mark | prepend: "<strong style='background-color: #f2f2f2;'>" | append: "</strong><u>" | append: "</u>" -%}
+        {%- assign display_name = "<strong style='background-color: #f2f2f2;'>" | append: name | append: "</strong><u>" | append: mark | append: "</u>" -%}
     {%- else -%}
         {%- assign display_name = name | append: mark -%}
     {%- endif -%}
-    
+
     {%- if info['url'] -%}
         <a class="text-body" target="_blank" href="{{ info['url'] }}">{{ display_name }}</a>{%- if forloop.index < authors.size -%}, {% endif -%}
     {%- else -%}
@@ -33,9 +40,11 @@
             {{ display_name }}{%- if forloop.index < authors.size -%}, {% endif -%}
         </span>
     {%- endif -%}
-
 {%- endfor -%}
 
-{%- if has_eq_contrib == true -%}
-<mark>(† <i> corresponding author</i>)</mark>
+{%- if has_eq_contrib == true or has_cofirst == true -%}
+    <mark>(
+        {%- if has_cofirst == true -%}* <i>co-first author</i>{% if has_eq_contrib == true %}; {% endif -%}{%- endif -%}
+        {%- if has_eq_contrib == true -%}† <i>corresponding author</i>{%- endif -%}
+    )</mark>
 {%- endif -%}
