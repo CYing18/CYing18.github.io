@@ -12,7 +12,7 @@ pub_date:       "2024"
 abstract: >-
   Cancer of unknown primary (CUP) represents metastatic cancer where the primary site remains unidentified despite standard diagnostic procedures. To determine the tumor origin in such cases, we developed BPformer, a deep learning method integrating the transformer model with prior knowledge of biological pathways. 
   
-cover:          assets/images/covers/xiaoqing.jpg
+cover:          assets/images/covers/BPformer.jpg
 authors:
   - Jiajing Xie*
   - Ying Chen*
