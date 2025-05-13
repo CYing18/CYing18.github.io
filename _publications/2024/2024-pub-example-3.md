@@ -1,8 +1,8 @@
 ---
-title:          Xiaoqing： A Q&A Model for Glaucoma Based on LLMs
-date:           2024-05-01 00:01:00 +0800
+title:          Tracing unknown tumor origins with a biological-pathway-based transformer model
+date:           2024-06-17 00:01:00 +0800
 selected:       true
-pub:            "Computers in Biology and Medicine"
+pub:            "Cell Reports Methods"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 # pub_last:       ' <span class="badge badge-pill badge-custom badge-success">Spotlight</span>'
@@ -10,23 +10,20 @@ pub_last:       ' <span class="badge badge-pill badge-custom badge-dark">Journal
 pub_date:       "2024"
 
 abstract: >-
-  We introduce Xiaoqing, an LLM model tailored for glaucoma developed through comparative and experiential experiments, demonstrating it can better serve glaucoma patients and medical research compared to general and clinical AI assistants by providing more informative and readable responses to glaucoma-related questions in Chinese.
+  Cancer of unknown primary (CUP) represents metastatic cancer where the primary site remains unidentified despite standard diagnostic procedures. To determine the tumor origin in such cases, we developed BPformer, a deep learning method integrating the transformer model with prior knowledge of biological pathways. 
   
 cover:          assets/images/covers/xiaoqing.jpg
 authors:
-  - Xiaojuan Xue
-  - Deshiwei Zhang
-  - Chengyang Sun
-  - Yiqiao Shi
-  - Rongsheng Wang
-  - Tao Tan
-  - Peng Gao
-  - Sujie Fan
-  - Guangtao Zhai
-  - Menghan Hu
-  - Yue Wu†
+  - Jiajing Xie*
+  - Ying Chen*
+  - Shijie Luo*
+  - Wenxian Yang
+  - Yuxiang Lin
+  - Liansheng Wang
+  - Xin Ding†
+  - Mengsha Tong†
+  - Rongshan Yu†
 links:
-  Paper: https://www.sciencedirect.com/science/article/pii/S0010482524004839
-  Demo: https://qa.glaucoma-assistant.com/#/qa
-  Cite: assets/bibtex/xue2024xiaoqing.bib
+  Paper: https://www.cell.com/cell-reports-methods/fulltext/S2667-2375(24)00153-X
+  Cite: assets/bibtex/xie2024tracing.bib
 ---
