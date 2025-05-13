@@ -3,7 +3,7 @@ secondary_name: "陈莹"
 navbar_name: "Ying Chen's Home Page"
 
 positions:
-  - '<span class="no-break"><img src="assets/images/badges/mpu_master.png" alt="Xiamen University" class="inline-badge"/></span> M.S., Xiamen University (2023)'
+  - '<span class="no-break"><img src="assets/images/badges/xmu.jpg" alt="Xiamen University" class="inline-badge"/></span> M.S., Xiamen University (2023)'
 
 email: "cying2023@stu.xmu.edu.cn"
 gscholar: bYfM8fEAAAAJ
@@ -30,17 +30,17 @@ portrait_caption: >-
 
 education:
 - name: Xiamen University
-  logo: assets/images/badges/mpu_master.png
+  logo: assets/images/badges/xmu.jpg
   position: M.S. in Computer Science and Technology
   date: Sep. 2023 - Jul. 2026
 - name: South China Normal University
-  logo: assets/images/badges/hpu_bs.png
+  logo: assets/images/badges/scnu.jpg
   position: B.S. in Artificial Intelligence
   date: Sep. 2019 - Jul. 2023
   
 experience:
 - name:  Shanghai AI Lab
-  logo: assets/images/badges/cuhk-sz.png
+  logo: assets/images/badges/ailab.png
   position: Intern (Supervisor is <a href="https://scholar.google.com/citations?user=Z4LgebkAAAAJ&hl=en">Junjun He</a>)
   date: Sep. 2024 - Now
 # - name: Qiyuan.Tech
