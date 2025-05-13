@@ -20,5 +20,5 @@ authors:
   - Tao Tan†
 links:
   Paper: https://openaccess.thecvf.com/content/CVPR2024/html/Li_Generalizable_Whole_Slide_Image_Classification_with_Fine-Grained_Visual-Semantic_Interaction_CVPR_2024_paper.html
-  Cite: assets/images/poster/icml2024-ws.jpeg
+  Cite: assets/bibtex/li2024generalizable.bib
 ---
