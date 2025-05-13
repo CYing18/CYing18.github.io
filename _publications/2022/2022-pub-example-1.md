@@ -10,8 +10,8 @@ abstract: >-
 
 cover:          assets/images/covers/bibm.png
 authors:
-  - Xianhui Chen
-  - Ying Chen
+  - Xianhui Chen*
+  - Ying Chen*
   - Wenjun Ma
   - Xiaomao Fan†
   - Ye Li†
