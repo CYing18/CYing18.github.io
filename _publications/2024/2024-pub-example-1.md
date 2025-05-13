@@ -13,11 +13,14 @@ abstract: >-
   
 cover:          assets/images/covers/Five.png
 authors:
-  - Qimin Yang
-  - Rongsheng Wang
-  - Jiexin Chen
-  - Runqi Su
-  - Tao Tan†
+  - Hao Li
+  - Ying Chen
+  - Yifei Chen
+  - Rongshan Yu†
+  - Wenxian Yang
+  - Liansheng Wang†
+  - Bowen Ding
+  - Yuchen Han†
 links:
   Paper: https://openaccess.thecvf.com/content/CVPR2024/html/Li_Generalizable_Whole_Slide_Image_Classification_with_Fine-Grained_Visual-Semantic_Interaction_CVPR_2024_paper.html
   Cite: assets/bibtex/li2024generalizable.bib
