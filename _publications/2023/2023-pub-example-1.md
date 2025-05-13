@@ -1,5 +1,5 @@
 ---
-title:          RAFNet: Restricted attention fusion network for sleep apnea detection
+title:          RAFNet-Restricted attention fusion network for sleep apnea detection
 date:           2023-05-01 00:01:00 +0800
 selected:       true
 pub:            "Neural Networks"
