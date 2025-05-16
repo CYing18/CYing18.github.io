@@ -10,7 +10,7 @@ pub_last:       ' <span class="badge badge-pill badge-custom badge-dark">Journal
 pub_date:       "2024"
 
 abstract: >-
-  Cancer of unknown primary (CUP) represents metastatic cancer where the primary site remains unidentified despite standard diagnostic procedures. To determine the tumor origin in such cases, we developed BPformer, a deep learning method integrating the transformer model with prior knowledge of biological pathways. 
+  We presented PathMethy, a novel Transformer model integrated with functional categories and crosstalk of pathways, to accurately trace the origin of tumors in CUP samples based on DNA methylation.
   
 cover:          assets/images/covers/pathmethy.png
 authors:
