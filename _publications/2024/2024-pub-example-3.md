@@ -1,5 +1,5 @@
 ---
-title:          PathMethy-an interpretable AI framework for cancer origin tracing based on DNA methylation
+title:          "PathMethy: an interpretable AI framework for cancer origin tracing based on DNA methylation"
 date:           2024-10-02 00:01:00 +0800
 selected:       true
 pub:            "Briefings in Bioinformatics"
