@@ -9,7 +9,7 @@ pub_last:       ' <span class="badge badge-pill badge-custom badge-secondary">Co
 pub_date:       "2024"
 
 abstract: >-
-  In this study, we propose Mamba with multi-grained multi-modal interaction (SurvMamba) for survival prediction. SurvMamba is implemented with a Hierarchical Interaction Mamba (HIM) module that facilitates efficient intra-modal interactions at different granularities, thereby capturing more detailed local features as well as rich global representations. Comprehensive evaluations on five TCGA datasets demonstrate that SurvMamba outperforms other existing methods in terms of performance and computational cost.
+  In this study, we propose Mamba with multi-grained multi-modal interaction (SurvMamba) for survival prediction. Comprehensive evaluations on five TCGA datasets demonstrate that SurvMamba outperforms other existing methods in terms of performance and computational cost.
   
 cover:          assets/images/covers/SurvMamba.png
 authors:
