@@ -1,5 +1,5 @@
 ---
-title:          Slidechat-A large vision-language assistant for whole-slide pathology image understanding
+title:          Slidechat: A large vision-language assistant for whole-slide pathology image understanding
 date:           2025-02-28 00:01:00 +0800
 selected:       true
 pub:            "CVPR"
