@@ -10,7 +10,7 @@ pub_last:       ' <span class="badge badge-pill badge-custom badge-dark">Journal
 pub_date:       "2025"
 
 abstract: >-
- Most existing approaches guided by biological pathways ignore the intrinsic link between diagnostic and prognostic tasks in cancer research. They fail to capitalize on the potential of leveraging shared biological information from both tasks to enhance gene pathway representations. To this end, we introduce the Biological Knowledge-guided Multi-task Attention Network
+  Most existing approaches guided by biological pathways ignore the intrinsic link between diagnostic and prognostic tasks in cancer research. They fail to capitalize on the potential of leveraging shared biological information from both tasks to enhance gene pathway representations. To this end, we introduce the Biological Knowledge-guided Multi-task Attention Network
  (BioMTAN), a novel multi-task learning framework designed for simultaneous prediction of molecular subtypes and survival risk. 
   
 cover:          assets/images/covers/BioMTAN.png
