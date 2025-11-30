@@ -13,7 +13,7 @@ abstract: >-
  With the advancement of precision medicine, gene expression data have become a crucial tool in both cancer diagnosis and prognosis for different cancer types. The incorporation of biological pathways as prior knowledge has gained increasing interest in tackling the difficulties of high dimensionality and noisy information within gene expression data. However, most existing approaches guided by biological pathways ignore the intrinsic link between diagnostic and prognostic tasks in cancer research. They fail to capitalize on the potential of leveraging shared biological information from both tasks to enhance gene pathway representations. To this end, we introduce the Biological Knowledge-guided Multi-task Attention Network
  (BioMTAN), a novel multi-task learning framework designed for simultaneous prediction of molecular subtypes and survival risk. 
   
-cover:          assets/images/covers/BioMTAN.jpg
+cover:          assets/images/covers/BioMTAN.png
 authors:
   - Ying Chen*
   - Jiajing Xie*
