@@ -1,27 +1,28 @@
 ---
-title:          BioMTAN-A Biological Knowledge-guided Multi-task Attention Network for Co-enhanced Cancer Diagnosis and Prognosis
-date:           2025-11-30 00:01:00 +0800
-selected:       true
-pub:            "IEEE Journal of Biomedical and Health Informatics"
-# pub_pre:        "Submitted to "
-# pub_post:       'Under review.'
-# pub_last:       ' <span class="badge badge-pill badge-custom badge-success">Spotlight</span>'
-pub_last:       ' <span class="badge badge-pill badge-custom badge-dark">Journal</span>'
-pub_date:       "2025"
+title: "BioMTAN: A Biological Knowledge-guided Multi-task Attention Network for Co-enhanced Cancer Diagnosis and Prognosis"
+date: 2025-11-30 00:01:00 +0800
+selected: true
 
-abstract: >-
-  Most existing approaches guided by biological pathways ignore the intrinsic link between diagnostic and prognostic tasks in cancer research. They fail to capitalize on the potential of leveraging shared biological information from both tasks to enhance gene pathway representations. To this end, we introduce the Biological Knowledge-guided Multi-task Attention Network
- (BioMTAN), a novel multi-task learning framework designed for simultaneous prediction of molecular subtypes and survival risk. 
-  
-cover:          assets/images/covers/BioMTAN.png
+pub: "IEEE Journal of Biomedical and Health Informatics"
+pub_date: "2025"
+pub_last: "<span class='badge badge-pill badge-custom badge-dark'>Journal</span>"
+
+abstract: >
+  Most existing approaches guided by biological pathways ignore the intrinsic link between diagnostic and prognostic tasks
+  in cancer. We propose BioMTAN, a novel multi-task learning framework designed for simultaneous prediction of molecular
+  subtypes and survival risk.
+
+cover: assets/images/covers/BioMTAN.png
+
 authors:
-  - Ying Chen*
-  - Jiajing Xie*
-  - Yuxiang Lin
-  - Yuhang Song
-  - Wenxian Yang
-  - Rongshan Yu†
+  - "Ying Chen*"
+  - "Jiajing Xie*"
+  - "Yuxiang Lin"
+  - "Yuhang Song"
+  - "Wenxian Yang"
+  - "Rongshan Yu†"
+
 links:
-  Paper: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11271142
-  Cite: assets/bibtex/chen2025biomtan.bib
+  Paper: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11271142"
+  Cite: "assets/bibtex/chen2025biomtan.bib"
 ---
