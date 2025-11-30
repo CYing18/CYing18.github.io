@@ -1,5 +1,5 @@
 ---
-title:          Survmamba-State space model with multi-grained multi-modal interaction for survival prediction
+title:          "Survmamba: State space model with multi-grained multi-modal interaction for survival prediction"
 date:           2025-10-1 00:01:00 +0800
 selected:       true
 pub:            BIBM
