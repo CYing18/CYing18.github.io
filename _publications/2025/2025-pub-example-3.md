@@ -1,5 +1,5 @@
 ---
-title:          BioMTAN: A Biological Knowledge-guided Multi-task Attention Network for Co-enhanced Cancer Diagnosis and Prognosis
+title:          BioMTAN-A Biological Knowledge-guided Multi-task Attention Network for Co-enhanced Cancer Diagnosis and Prognosis
 date:           2025-11-30 00:01:00 +0800
 selected:       true
 pub:            "IEEE Journal of Biomedical and Health Informatics"
