@@ -1,5 +1,5 @@
 ---
-title:          SE-MSCNN-A Lightweight Multi-scaled Fusion Network for Sleep Apnea Detection Using Single-Lead ECG Signals
+title:          "SE-MSCNN: A Lightweight Multi-scaled Fusion Network for Sleep Apnea Detection Using Single-Lead ECG Signals"
 date:           2022-01-14 00:01:00 +0800
 selected:       true
 pub:            "BIBM"
