@@ -6,7 +6,7 @@ pub:            BIBM
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 pub_last:       ' <span class="badge badge-pill badge-custom badge-secondary">Conference</span><span class="badge badge-pill badge-custom badge-warning">Poster</span>'
-pub_date:       "2024"
+pub_date:       "2025"
 
 abstract: >-
   In this study, we propose Mamba with multi-grained multi-modal interaction (SurvMamba) for survival prediction. Comprehensive evaluations on five TCGA datasets demonstrate that SurvMamba outperforms other existing methods in terms of performance and computational cost.
