@@ -88,6 +88,11 @@ div.lazy {
     overflow: hidden;
 }
 
+.showcase-group-trips .grid-item {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+
 .showcase-trip-photo {
     display: block;
     height: 260px;
@@ -98,6 +103,16 @@ div.lazy {
 @media (max-width: 767.98px) {
     .showcase-trip-photo {
         height: 180px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .showcase-trip-photo {
+        height: 120px;
+    }
+
+    .showcase-trip-card .card-title {
+        font-size: 0.9rem;
     }
 }
 

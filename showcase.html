@@ -9,7 +9,8 @@ container_class: container-xl
 
 {% for group in cards_by_group %}
 <h1>{{ group.name }}</h1>
-<div class="row grid mb-4">
+{% assign group_slug = group.name | slugify %}
+<div class="row grid mb-4 showcase-group-{{ group_slug }}">
     <div class="grid-sizer col-1"></div>
     {% for item in group.items %}
     {% if item.width >= 6 -%}
