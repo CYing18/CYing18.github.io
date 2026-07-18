@@ -84,6 +84,23 @@ div.lazy {
     min-height: 80px;
 }
 
+.showcase-trip-card {
+    overflow: hidden;
+}
+
+.showcase-trip-photo {
+    display: block;
+    height: 260px;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media (max-width: 767.98px) {
+    .showcase-trip-photo {
+        height: 180px;
+    }
+}
+
 .badge-publication {
     font-size: 100%;
 }
