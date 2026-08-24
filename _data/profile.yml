@@ -3,7 +3,7 @@ secondary_name: "陈莹"
 navbar_name: "Ying Chen"
 
 positions:
-  - name: Incoming Ph.D. Student
+  - name: Ph.D. Student
   - name: Columbia University
     logo: /assets/images/badges/columbia.png
 
@@ -21,23 +21,22 @@ github: CYing18
 short_bio_text_justify: false
 short_bio: >-
 
-  <p>
-    I am an incoming Ph.D. student at
-    <a href="https://www.columbia.edu/" target="_blank">Columbia University</a>,
-    where I will join the
-    <a href="https://labs-laboratory.com/" target="_blank">Laboratory of AI & Biomedical Science (LABS)</a>
-    under the supervision of <a href="https://scholar.google.com/citations?user=4Wq_FukAAAAJ" target="_blank">Prof. Junhao Wen</a>.
-    I completed my master's studies at Xiamen University
-    under the supervision of
-    <a href="https://scholar.google.com/citations?user=Uh1EpKQAAAAJ" target="_blank">Prof. Rongshan Yu</a>.
-  </p>
+<p>
+  I am a first-year Ph.D. student at
+  <a href="https://www.columbia.edu/" target="_blank">Columbia University</a>,
+  where I conduct research in the
+  <a href="https://labs-laboratory.com/" target="_blank">Laboratory of AI & Biomedical Science (LABS)</a>
+  under the supervision of
+  <a href="https://scholar.google.com/citations?user=4Wq_FukAAAAJ" target="_blank">Prof. Junhao Wen</a>.
+  Prior to joining Columbia, I completed my master's degree at Xiamen University
+  under the supervision of
+  <a href="https://scholar.google.com/citations?user=Uh1EpKQAAAAJ" target="_blank">Prof. Rongshan Yu</a>.
+</p>
 
-  <p>
-    My research interests lie at AI for science, with a particular focus on
-    foundation models, generative AI, and multimodal learning for biomedical applications. 
-    My long-term goal is to build intelligent
-    computational models that advance our understanding of human health and disease.
-  </p>
+<p>
+  My research interests lie at the intersection of artificial intelligence and biomedical science, with a particular focus on foundation models, generative AI, and multimodal learning for biomedical applications.
+</p>
+
 
 
 portrait_url: /assets/images/photos/chenying.jpeg
