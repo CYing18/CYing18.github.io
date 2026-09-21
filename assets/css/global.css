@@ -48,6 +48,18 @@ h1, h2, h3, h4, h5, h6,
     -webkit-backdrop-filter: blur(16px);
 }
 
+.site-navbar-inner {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.site-navbar-links {
+    align-items: center;
+    gap: 1rem;
+}
+
 .inline-badge {
     height: 16px;
     vertical-align: -10%;
@@ -132,7 +144,7 @@ div.lazy {
 }
 
 .homepage .navbar {
-    min-height: 80px;
+    min-height: 68px;
     background: rgba(255, 255, 255, 0.94) !important;
     border-bottom: 1px solid #e7e9ec;
     box-shadow: none !important;
@@ -143,14 +155,8 @@ div.lazy {
     padding-right: 0;
 }
 
-.homepage .navbar-brand {
-    color: #292f35;
-    font-size: 19px;
-    letter-spacing: -0.3px;
-}
-
 .homepage .navbar-nav {
-    gap: 14px;
+    gap: 20px;
 }
 
 .homepage .navbar .nav-link {
@@ -496,10 +502,6 @@ div.lazy {
         width: calc(100% - 40px);
     }
 
-    .homepage .navbar-brand {
-        font-size: 17px;
-    }
-
     .homepage .navbar-toggler {
         border: 0;
         font-size: 12px !important;
@@ -510,6 +512,11 @@ div.lazy {
         padding: 8px 12px;
         background: #fff;
         border: 1px solid #e7e9ec;
+    }
+
+    .site-navbar-links {
+        align-items: flex-end;
+        gap: 0;
     }
 
     .homepage-container {
