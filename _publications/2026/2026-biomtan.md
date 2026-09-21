@@ -3,6 +3,7 @@ title:          "BioMTAN: A Biological Knowledge-Guided Multi-Task Attention Net
 date:           2026-06-05 00:01:00 +0800
 selected:       true
 pub:            "IEEE Journal of Biomedical and Health Informatics (JBHI)"
+venue_short:    "JBHI"
 pub_date:       "2026"
 abstract: >-
   BioMTAN integrates biological pathway knowledge with multi-task attention to jointly predict cancer molecular subtypes and survival risk from gene expression data.

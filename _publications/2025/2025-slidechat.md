@@ -3,6 +3,7 @@ title:          "SlideChat: A Large Vision-Language Assistant for Whole-Slide Pa
 date:           2025-06-01 00:01:00 +0800
 selected:       true
 pub:            "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+venue_short:    "CVPR"
 pub_date:       "2025"
 abstract: >-
   SlideChat is an open-source vision-language assistant for gigapixel whole-slide pathology images, built with SlideInstruction and evaluated on SlideBench across captioning and VQA tasks.

@@ -32,7 +32,7 @@ short_bio: >-
   </p>
   
   <p>
-    My research interests lie at the intersection of artificial intelligence and biomedical science, with a particular focus on foundation models, generative AI, and multimodal learning for biomedical applications.
+    My research focuses on developing foundation models and AI agents that integrate multimodal biomedical data to understand human health, disease, and aging.
   </p>
 
 
@@ -71,5 +71,14 @@ experience:
 awards:
 - name: Outstanding Master's Thesis Award, Xiamen University
   date: 2026
-- name: South China Normal University Merit Student Scholarship (four times)
+- name: Merit Student Scholarship (four times), South China Normal University
   date: 2019-2023
+
+academic_services:
+  conferences:
+    - CVPR
+    - AAAI
+  journals:
+    - TPAMI
+    - TCSVT
+    - BSCP

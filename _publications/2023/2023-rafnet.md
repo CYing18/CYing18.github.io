@@ -3,6 +3,7 @@ title:          "RAFNet: Restricted Attention Fusion Network for Sleep Apnea Det
 date:           2023-03-21 00:01:00 +0800
 selected:       true
 pub:            "Neural Networks"
+venue_short:    "Neural Networks"
 pub_date:       "2023"
 abstract: >-
   RAFNet detects sleep apnea from single-lead ECG by using restricted attention to fuse target and adjacent ECG segments while suppressing redundant neighboring information.

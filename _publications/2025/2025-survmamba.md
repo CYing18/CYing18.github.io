@@ -3,6 +3,7 @@ title:          "SurvMamba: State Space Model with Multi-Grained Multi-Modal Int
 date:           2025-11-05 00:01:00 +0800
 selected:       true
 pub:            "IEEE International Conference on Bioinformatics and Biomedicine (BIBM)"
+venue_short:    "BIBM"
 pub_date:       "2025"
 abstract: >-
   SurvMamba introduces Mamba-based hierarchical intra-modal and inter-modal interaction modules to integrate whole-slide images and transcriptomic data for efficient cancer survival prediction.

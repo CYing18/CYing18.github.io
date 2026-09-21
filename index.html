@@ -1,39 +1,131 @@
 ---
 layout: default
-title : Homepage
+title: Homepage
 navbar_title: Home
+body_class: homepage
+container_class: homepage-container
 ---
 
-<div class="row">
-    <div class="col-lg-3 col-md-4">
-        {% include widgets/profile_card_mini.html %}
+<section class="home-hero">
+    <div class="home-hero-copy">
+        <h1>{{ site.data.profile.primary_name }} <span>{{ site.data.profile.secondary_name }}</span></h1>
+        <div class="home-affiliation">Ph.D. Student · Columbia University</div>
+        <div class="home-bio">{{ site.data.profile.short_bio }}</div>
+
+        <div class="home-social" aria-label="Profile links">
+            <a href="mailto:{{ site.data.profile.email | encode_email }}"><i class="far fa-envelope" aria-hidden="true"></i><span>Email</span></a>
+            {% if site.data.profile.gscholar %}
+            <a target="_blank" rel="noopener" href="https://scholar.google.com/citations?user={{ site.data.profile.gscholar }}"><i class="ai ai-google-scholar" aria-hidden="true"></i><span>Google Scholar</span></a>
+            {% endif %}
+            {% if site.data.profile.github %}
+            <a target="_blank" rel="noopener" href="https://github.com/{{ site.data.profile.github }}"><i class="fab fa-github" aria-hidden="true"></i><span>GitHub</span></a>
+            {% endif %}
+            {% if site.data.profile.linkedin %}
+            <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/{{ site.data.profile.linkedin }}"><i class="fab fa-linkedin" aria-hidden="true"></i><span>LinkedIn</span></a>
+            {% endif %}
+        </div>
     </div>
-    <div class="col-lg-9 col-md-8">
 
-        {% include widgets/profile_card_bio_only.html %}
+    <img class="home-portrait" src="{{ site.data.profile.portrait_url | relative_url }}" alt="Portrait of {{ site.data.profile.primary_name }}">
+</section>
 
-        <!-- Debugging widgets -->
-        {% include widgets/debug_repo_name.html %}
-        {% include widgets/debug_url.html %}
+{% assign latest_news = site.news | sort: "date" | reverse | first %}
+{% if latest_news %}
+<section class="home-news" aria-labelledby="home-news-title">
+    <h2 id="home-news-title">News</h2>
+    <time datetime="{{ latest_news.date | date_to_xmlschema }}">{{ latest_news.date | date: "%Y" }}</time>
+    <div>{{ latest_news.title }}</div>
+</section>
+{% endif %}
 
-        {% if site.data.display.homepage.show_experience %}
-            {% include widgets/experience_card.html %}
-        {% endif %}
-
-        {% if site.data.display.homepage.show_news %}
-        {% assign count_news = site.news | size %}
-        {% if count_news > 0 %}
-        {% include widgets/news_card.html limit=site.data.display.homepage.num_news %}
-        {% endif %}
-        {% endif %}
-
-        {% if site.data.display.homepage.show_selected_publications %}
-        {% assign pubs = site.publications | sort: "date" | reverse | where: "selected", true %}
-        {%
-        include widgets/publication_card.html
-        publications=pubs
-        title='<i class="fas fa-star"></i> Selected Publications'
-        %}
-        {% endif %}
+{% assign selected_publications = site.publications | sort: "date" | reverse | where: "selected", true %}
+<section class="home-publications" aria-labelledby="selected-publications-title">
+    <div class="home-section-heading">
+        <h2 id="selected-publications-title">Selected Publications</h2>
+        <a href="{{ '/publications' | relative_url }}">All publications →</a>
     </div>
+
+    <div class="home-publication-scroll" tabindex="0" role="region" aria-label="Selected publications; scroll to see more">
+        {% for item in selected_publications %}
+        <article class="home-publication">
+            <div class="home-publication-cover">
+                {% if item.cover %}<img src="{{ item.cover | relative_url }}" alt="Cover image for {{ item.title }}">{% endif %}
+            </div>
+            <div class="home-publication-copy">
+                <div class="home-publication-meta"><span>{{ item.venue_short | default: item.pub }}</span><time>{{ item.pub_date }}</time></div>
+                <h3>{{ item.title }}</h3>
+                <p class="home-publication-authors">
+                    {% for raw_author in item.authors limit:4 %}
+                        {% assign author = raw_author | replace: "*", "" | replace: "#", "" %}
+                        {% assign author_info = site.data.authors[author] %}
+                        {% if author_info.url %}<a href="{{ author_info.url }}" target="_blank" rel="noopener">{% endif %}{% if author_info.bold %}<strong>{{ author }}</strong>{% else %}{{ author }}{% endif %}{% if author_info.url %}</a>{% endif %}{% unless forloop.last %}, {% endunless %}
+                    {% endfor %}{% if item.authors.size > 4 %}, et al.{% endif %}
+                </p>
+                <p class="home-publication-abstract">{{ item.abstract }}</p>
+                <div class="home-publication-links">
+                    {% for link in item.links %}
+                    {% if link[1].url %}
+                    <a target="{{ link[1].target }}" href="{{ link[1].url }}">{{ link[0] }}</a>
+                    {% elsif link[1] contains '://' %}
+                    <a target="_blank" rel="noopener" href="{{ link[1] }}">{{ link[0] }}</a>
+                    {% else %}
+                    <a target="_blank" rel="noopener" href="{{ link[1] | relative_url }}">{{ link[0] }}</a>
+                    {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+        </article>
+        {% endfor %}
+    </div>
+    <p class="home-scroll-hint">Scroll to see more ↓</p>
+</section>
+
+<div class="home-profile-sections">
+    <section aria-labelledby="education-title">
+        <h2 id="education-title">Education</h2>
+        {% for item in site.data.profile.education %}
+        <div class="home-profile-entry">
+            <img src="{{ item.logo | relative_url }}" alt="">
+            <div><strong>{{ item.name }}</strong><span>{{ item.position }}</span></div>
+            <time>{{ item.date }}</time>
+        </div>
+        {% endfor %}
+    </section>
+
+    <section aria-labelledby="experience-title">
+        <h2 id="experience-title">Experience</h2>
+        {% for item in site.data.profile.experience %}
+        <div class="home-profile-entry">
+            <img src="{{ item.logo | relative_url }}" alt="">
+            <div><strong>{{ item.name }}</strong><span>{{ item.position }}</span></div>
+            <time>{{ item.date }}</time>
+        </div>
+        {% endfor %}
+    </section>
+
+    <section class="home-services" aria-labelledby="services-title">
+        <h2 id="services-title">Academic Services</h2>
+        <p><span>Conference Reviewer</span>{{ site.data.profile.academic_services.conferences | join: ", " }}</p>
+        <p><span>Journal Reviewer</span>{{ site.data.profile.academic_services.journals | join: ", " }}</p>
+    </section>
+
+    <section class="home-awards" aria-labelledby="awards-title">
+        <h2 id="awards-title">Honors &amp; Awards</h2>
+        {% for item in site.data.profile.awards %}<p>{{ item.name }} <time>{{ item.date }}</time></p>{% endfor %}
+    </section>
 </div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    var list = document.querySelector(".home-publication-scroll");
+    if (!list) return;
+    function showThreePublications() {
+        var papers = Array.prototype.slice.call(list.querySelectorAll(".home-publication"), 0, 3);
+        var height = papers.reduce(function (total, paper) { return total + paper.getBoundingClientRect().height; }, 0);
+        list.style.height = Math.ceil(height) + "px";
+    }
+    showThreePublications();
+    window.addEventListener("load", showThreePublications);
+    window.addEventListener("resize", showThreePublications);
+});
+</script>
