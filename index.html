@@ -113,6 +113,13 @@ container_class: homepage-container
         <h2 id="awards-title">Honors &amp; Awards</h2>
         {% for item in site.data.profile.awards %}<p>{{ item.name }} <time>{{ item.date }}</time></p>{% endfor %}
     </section>
+
+    <section class="home-visitors" aria-labelledby="visitors-title">
+        <h2 id="visitors-title">Visitors</h2>
+        <div class="home-visitor-map">
+            <script async src="https://feed-pulse.com/api/embed/visitor-globe.js?site_id=1e6a0bc4-bae4-4e49-b896-d93793a1abf6&map=flat&sz=sm&theme=ivory&speed=off"></script>
+        </div>
+    </section>
 </div>
 
 <script>

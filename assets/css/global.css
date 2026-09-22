@@ -57,7 +57,33 @@ h1, h2, h3, h4, h5, h6,
 
 .site-navbar-links {
     align-items: center;
-    gap: 1rem;
+    gap: 1.4rem;
+}
+
+.site-navbar-links .nav-link {
+    position: relative;
+    padding: 0.75rem 0.15rem !important;
+    color: #737b83 !important;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.4;
+}
+
+.site-navbar-links .nav-item.active .nav-link {
+    color: #29333c !important;
+    font-weight: 600;
+}
+
+.site-navbar-links .nav-item.active .nav-link::after {
+    position: absolute;
+    right: 0.15rem;
+    bottom: 0.35rem;
+    left: 0.15rem;
+    height: 1px;
+    background: #6d879a;
+    content: "";
 }
 
 .inline-badge {
@@ -161,7 +187,6 @@ div.lazy {
 
 .homepage .navbar .nav-link {
     color: #7b8188 !important;
-    font-size: 13px;
 }
 
 .homepage .navbar .nav-item.active .nav-link {
@@ -480,6 +505,26 @@ div.lazy {
     white-space: nowrap;
 }
 
+.home-visitors {
+    padding-top: 2px;
+}
+
+.home-visitor-map {
+    display: flex;
+    min-height: 180px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 16px 0 4px;
+    border-top: 1px solid #eceef0;
+}
+
+.home-visitor-map iframe,
+.home-visitor-map canvas,
+.home-visitor-map > div {
+    max-width: 100% !important;
+}
+
 .homepage .footer {
     max-width: 990px;
     margin: 33px auto 0 !important;
@@ -517,6 +562,17 @@ div.lazy {
     .site-navbar-links {
         align-items: flex-end;
         gap: 0;
+    }
+
+    .site-navbar-links .nav-link {
+        padding: 0.5rem 0 !important;
+        font-size: 13px;
+    }
+
+    .site-navbar-links .nav-item.active .nav-link::after {
+        right: 0;
+        bottom: 0.25rem;
+        left: 0;
     }
 
     .homepage-container {
@@ -680,6 +736,11 @@ div.lazy {
 
     .home-awards time {
         font-size: 11px;
+    }
+
+    .home-visitor-map {
+        min-height: 160px;
+        padding-top: 12px;
     }
 
     .homepage .footer {
