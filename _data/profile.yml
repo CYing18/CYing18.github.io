@@ -63,9 +63,10 @@ education:
     date: 2019.09 - 2023.06
 
 experience:
-- name: Shanghai AI LAB
+- name: Shanghai AI Lab, Shanghai, China
   logo: /assets/images/badges/shailab.jpeg
-  position: Research Intern
+  position: Research Intern at General Medical Group
+  description: I work on multi-modal pathology foundation models.
   date: 2024.05 - 2026.02
 
 awards:

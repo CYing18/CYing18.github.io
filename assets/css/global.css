@@ -472,6 +472,19 @@ div.lazy {
     font-size: 12px;
 }
 
+.home-profile-entry p {
+    margin: 4px 0 0;
+    color: #505963;
+    font-size: 12px;
+    line-height: 1.55;
+}
+
+.home-profile-entry p::before {
+    content: "•";
+    margin-right: 7px;
+    color: #8a94a1;
+}
+
 .home-profile-entry time {
     margin-left: auto;
     white-space: nowrap;
@@ -721,6 +734,10 @@ div.lazy {
 
     .home-profile-entry span,
     .home-profile-entry time {
+        font-size: 10px;
+    }
+
+    .home-profile-entry p {
         font-size: 10px;
     }
 

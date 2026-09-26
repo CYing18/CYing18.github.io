@@ -97,7 +97,11 @@ container_class: homepage-container
         {% for item in site.data.profile.experience %}
         <div class="home-profile-entry">
             <img src="{{ item.logo | relative_url }}" alt="">
-            <div><strong>{{ item.name }}</strong><span>{{ item.position }}</span></div>
+            <div>
+                <strong>{{ item.name }}</strong>
+                <span>{{ item.position }}</span>
+                {% if item.description %}<p>{{ item.description }}</p>{% endif %}
+            </div>
             <time>{{ item.date }}</time>
         </div>
         {% endfor %}
