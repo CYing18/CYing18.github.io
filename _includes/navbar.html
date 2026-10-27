@@ -1,3 +1,4 @@
+{% if site.data.navigation.pages and site.data.navigation.pages.size > 0 %}
 <nav class="navbar navbar-expand-sm navbar-light fixed-top mb-5 shadow-sm">
     <div class="site-navbar-inner {% if page.container_class %}{{ page.container_class }}{% else %}container-lg{% endif %}">
         <button class="navbar-toggler ml-auto" style="font-size: 1em; padding: 0.5em;" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -15,3 +16,4 @@
         </div>
     </div>
 </nav>
+{% endif %}
