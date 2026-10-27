@@ -606,11 +606,7 @@ div.lazy {
 }
 
 .home-portrait {
-    padding: 5px;
-    border: 1px solid #d5e0e7;
-    border-radius: 3px;
-    background: #f5f7f5;
-    box-shadow: 0 6px 16px rgba(24, 54, 75, 0.08);
+    border-radius: 0;
 }
 
 .home-social {
@@ -847,7 +843,6 @@ div.lazy {
         width: 84px;
         height: 101px;
         margin: 0;
-        padding: 3px;
     }
 
     .home-bio,
