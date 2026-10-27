@@ -557,7 +557,7 @@ div.lazy {
 
 /* Academic visual refinements */
 .homepage {
-    background: linear-gradient(180deg, #e7f0f5 0%, #edf3f1 54%, #f2e8df 100%);
+    background: linear-gradient(180deg, #fafbfa 0%, #e7f0f5 31%, #edf3f1 59%, #f2e8df 100%);
     background-attachment: fixed;
 }
 
@@ -567,14 +567,26 @@ div.lazy {
 
 .home-hero {
     position: relative;
-    margin-top: 38px;
+    margin-top: 30px;
     padding: 37px 0 39px;
     border-top: 4px solid #1d4e70;
     border-bottom: 1px solid #cbd9e0;
-    background-image: url("../images/etc/horizon-globe.svg");
-    background-repeat: no-repeat;
-    background-position: calc(100% + 54px) 4px;
-    background-size: 340px auto;
+}
+
+.home-banner {
+    width: 100vw;
+    margin: 0 calc(50% - 50vw);
+    overflow: hidden;
+    background: #fafbfa;
+    line-height: 0;
+}
+
+.home-banner img {
+    display: block;
+    width: 100%;
+    max-width: 1560px;
+    height: auto;
+    margin: 0 auto;
 }
 
 .home-hero-copy::before {
@@ -818,7 +830,6 @@ div.lazy {
         gap: 18px;
         margin-top: 24px;
         padding: 27px 0 25px;
-        background-image: none;
     }
 
     .home-hero-copy {
