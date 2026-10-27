@@ -37,7 +37,7 @@ short_bio: >-
 
 
 
-portrait_url: /assets/images/photos/chenying.jpeg
+portrait_url: /assets/images/photos/chenying.png
 portrait_caption: >-
   Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
 
@@ -51,20 +51,20 @@ education:
     date: 2026.09 -
 
   - name: Xiamen University
-    logo: /assets/images/badges/xmu.jpeg
+    logo: /assets/images/badges/xmu.svg
     position: >-
       M.S. Student
     date: 2023.09 - 2026.06
 
   - name: South China Normal University
-    logo: /assets/images/badges/scnu.jpeg
+    logo: /assets/images/badges/scnu.png
     position: >-
       B.S. Student
     date: 2019.09 - 2023.06
 
 experience:
 - name: Shanghai AI Lab, Shanghai, China
-  logo: /assets/images/badges/shailab.jpeg
+  logo: /assets/images/badges/shailab.png
   position: Research Intern at General Medical Group
   description: I work on multi-modal pathology foundation models.
   date: 2024.05 - 2026.02
