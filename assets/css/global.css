@@ -633,9 +633,7 @@ div.lazy {
 .home-news {
     margin: 26px 0 0;
     padding: 15px 0;
-    border-top: 1px solid #cbd9e0;
-    border-bottom: 1px solid #cbd9e0;
-    border-left: 0;
+    border: 0;
 }
 
 .home-news h2 {
@@ -755,11 +753,16 @@ div.lazy {
 
 .home-services p {
     padding-bottom: 8px;
-    border-bottom: 1px solid #dce5e9;
+    border-bottom: 0;
 }
 
 .home-services p:last-child {
     border-bottom: 0;
+}
+
+.home-profile-sections > .home-services {
+    padding-top: 21px;
+    border-top: 0;
 }
 
 .homepage .footer {
