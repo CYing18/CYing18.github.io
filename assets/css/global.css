@@ -557,7 +557,8 @@ div.lazy {
 
 /* Academic visual refinements */
 .homepage {
-    background: #edf3f5;
+    background: linear-gradient(180deg, #e7f0f5 0%, #edf3f1 54%, #f2e8df 100%);
+    background-attachment: fixed;
 }
 
 .homepage-container {
@@ -570,13 +571,17 @@ div.lazy {
     padding: 37px 0 39px;
     border-top: 4px solid #1d4e70;
     border-bottom: 1px solid #cbd9e0;
+    background-image: url("../images/etc/horizon-globe.svg");
+    background-repeat: no-repeat;
+    background-position: calc(100% + 54px) 4px;
+    background-size: 340px auto;
 }
 
 .home-hero-copy::before {
     display: block;
     margin-bottom: 13px;
     color: #54768f;
-    content: "ACADEMIC PROFILE";
+    content: "RESEARCH · EARTH · IDEAS";
     font-family: "Source Code Pro", monospace;
     font-size: 10px;
     font-weight: 600;
@@ -640,6 +645,16 @@ div.lazy {
     letter-spacing: 0.08em;
 }
 
+.home-news h2::before {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    margin: 0 7px 1px 0;
+    border-radius: 50%;
+    background: #c9954f;
+    content: "";
+}
+
 .home-publications {
     padding-top: 44px;
 }
@@ -655,6 +670,16 @@ div.lazy {
     color: #1c3d55;
     font-family: "Fira Sans", sans-serif;
     font-size: 24px;
+}
+
+.home-section-heading h2::after,
+.home-profile-sections h2::after {
+    display: block;
+    width: 22px;
+    height: 2px;
+    margin-top: 8px;
+    background: #c9954f;
+    content: "";
 }
 
 .home-section-heading a {
@@ -792,6 +817,7 @@ div.lazy {
         gap: 18px;
         margin-top: 24px;
         padding: 27px 0 25px;
+        background-image: none;
     }
 
     .home-hero-copy {
