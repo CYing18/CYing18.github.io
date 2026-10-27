@@ -16,4 +16,8 @@
   <path d="M111 46v16M103 54h16" stroke="#5B92AD" stroke-opacity=".55"/>
   <circle cx="340" cy="76" r="1.7" fill="#5B92AD" fill-opacity=".72"/>
   <circle cx="326" cy="157" r="1.5" fill="#C9954F" fill-opacity=".72"/>
+  <path d="M77 165h34l8 8v43H77v-51Z" stroke="#416D88" stroke-opacity=".62" stroke-width="1.2"/>
+  <path d="M111 165v9h8M86 183h23M86 191h23M86 199h15" stroke="#416D88" stroke-opacity=".42" stroke-width="1"/>
+  <path d="M304 184h43v28h-43zM297 220h57l-6 5h-45l-6-5Z" stroke="#416D88" stroke-opacity=".62" stroke-width="1.2" stroke-linejoin="round"/>
+  <path d="M319 225h13" stroke="#C9954F" stroke-opacity=".7" stroke-width="1.2"/>
 </svg>

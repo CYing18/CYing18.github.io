@@ -619,14 +619,13 @@ div.lazy {
 
 .home-social a {
     padding: 2px 0;
-    border-bottom: 1px solid #a6bfcd;
+    border-bottom: 0;
     border-radius: 0;
     color: #285c7e;
-    transition: border-color 160ms ease, color 160ms ease;
+    transition: color 160ms ease;
 }
 
 .home-social a:hover {
-    border-color: #285c7e;
     color: #173f5c;
     text-decoration: none;
 }
@@ -684,7 +683,6 @@ div.lazy {
 
 .home-section-heading a {
     padding: 5px 0;
-    border-bottom: 1px solid #8baabb;
     color: #2d6386;
     font-weight: 600;
 }
