@@ -557,7 +557,7 @@ div.lazy {
 
 /* Academic visual refinements */
 .homepage {
-    background: linear-gradient(180deg, #fafbfa 0%, #e7f0f5 31%, #edf3f1 59%, #f2e8df 100%);
+    background: linear-gradient(180deg, #eaf2f3 0%, #e7f0f5 31%, #edf3f1 59%, #f2e8df 100%);
     background-attachment: fixed;
 }
 
@@ -569,35 +569,23 @@ div.lazy {
     position: relative;
     margin-top: 30px;
     padding: 37px 0 39px;
-    border-top: 4px solid #1d4e70;
     border-bottom: 1px solid #cbd9e0;
 }
 
 .home-banner {
-    width: 100vw;
-    margin: 0 calc(50% - 50vw);
+    width: 100%;
+    max-width: 960px;
+    margin: 22px auto 0;
     overflow: hidden;
-    background: #fafbfa;
+    background: #eaf2f3;
     line-height: 0;
 }
 
 .home-banner img {
     display: block;
     width: 100%;
-    max-width: 1560px;
     height: auto;
     margin: 0 auto;
-}
-
-.home-hero-copy::before {
-    display: block;
-    margin-bottom: 13px;
-    color: #54768f;
-    content: "RESEARCH · EARTH · IDEAS";
-    font-family: "Source Code Pro", monospace;
-    font-size: 10px;
-    font-weight: 600;
-    letter-spacing: 0.14em;
 }
 
 .home-hero h1 {
@@ -833,10 +821,6 @@ div.lazy {
 
     .home-hero-copy {
         display: contents;
-    }
-
-    .home-hero-copy::before {
-        display: none;
     }
 
     .home-hero h1 {
