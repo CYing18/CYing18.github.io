@@ -234,8 +234,8 @@ div.lazy {
 .home-bio p {
     margin: 0 0 12px;
     color: #424b54;
-    font-size: 14px;
-    line-height: 1.9;
+    font-size: 16px;
+    line-height: 1.8;
 }
 
 .home-bio a,
@@ -282,7 +282,7 @@ div.lazy {
     padding: 12px 0 27px;
     border-bottom: 1px solid #e7e9ec;
     color: #454e58;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .home-news h2 {
@@ -396,7 +396,7 @@ div.lazy {
 .home-publication-abstract {
     margin: 0 0 7px;
     color: #727b85;
-    font-size: 12px;
+    font-size: 13px;
     line-height: 1.7;
 }
 
@@ -417,7 +417,7 @@ div.lazy {
 }
 
 .home-publication-links a {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .home-scroll-hint {
@@ -462,21 +462,21 @@ div.lazy {
 
 .home-profile-entry strong {
     color: #343d47;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 500;
 }
 
 .home-profile-entry span,
 .home-profile-entry time {
     color: #858d96;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .home-profile-entry p {
     margin: 4px 0 0;
     color: #505963;
-    font-size: 12px;
-    line-height: 1.55;
+    font-size: 13px;
+    line-height: 1.65;
 }
 
 .home-profile-entry p::before {
@@ -496,7 +496,7 @@ div.lazy {
     align-items: baseline;
     margin: 8px 0;
     color: #424d59;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .home-services p span {
@@ -507,7 +507,7 @@ div.lazy {
 .home-awards p {
     margin: 0 0 13px;
     color: #343d47;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 1.75;
 }
 
@@ -851,7 +851,7 @@ div.lazy {
     }
 
     .home-bio p {
-        font-size: 13px;
+        font-size: 14px;
         line-height: 1.85;
     }
 
@@ -875,7 +875,7 @@ div.lazy {
         gap: 16px;
         margin-top: 20px;
         padding: 11px 0;
-        font-size: 11px;
+        font-size: 12px;
     }
 
     .home-news h2 {
@@ -913,7 +913,7 @@ div.lazy {
     }
 
     .home-publication h3 {
-        font-size: 15px;
+        font-size: 16px;
     }
 
     .home-publication-meta span {
@@ -922,7 +922,7 @@ div.lazy {
 
     .home-publication-authors,
     .home-publication-abstract {
-        font-size: 11px;
+        font-size: 12px;
     }
 
     .home-profile-sections {
@@ -954,34 +954,34 @@ div.lazy {
     }
 
     .home-profile-entry strong {
-        font-size: 12px;
+        font-size: 13px;
     }
 
     .home-profile-entry span,
     .home-profile-entry time {
-        font-size: 10px;
+        font-size: 11px;
     }
 
     .home-profile-entry p {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .home-services p {
         gap: 12px;
-        font-size: 12px;
+        font-size: 13px;
     }
 
     .home-services p span {
         min-width: 133px;
-        font-size: 11px;
-    }
-
-    .home-awards p {
         font-size: 12px;
     }
 
+    .home-awards p {
+        font-size: 13px;
+    }
+
     .home-awards time {
-        font-size: 11px;
+        font-size: 12px;
     }
 
     .home-visitor-map {
