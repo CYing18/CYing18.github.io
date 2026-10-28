@@ -70,6 +70,8 @@ experience:
   date: 2024.05 - 2026.02
 
 awards:
+- name: EMNLP Outstanding Paper Award
+  date: 2026
 - name: Outstanding Master's Thesis Award, Xiamen University
   date: 2026
 - name: MICCAI Best Paper and Young Scientist Award Shortlist
@@ -80,6 +82,6 @@ academic_services:
     - CVPR
     - AAAI
   journals:
-    - TPAMI
-    - TCSVT
-    - BSCP
+    - IEEE TPAMI
+    - IEEE TCSVT
+    - Biological Signal Processing and Control
