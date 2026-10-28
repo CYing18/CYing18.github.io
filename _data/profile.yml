@@ -63,7 +63,7 @@ education:
     date: 2019.09 - 2023.06
 
 experience:
-- name: Chinese Institute for Brain Research (CIBR), Beijing, China
+- name: Chinese Institute for Brain Research, Beijing, China
   logo: /assets/images/badges/CIBR.png
   position: Research Intern
   description: Worked on foundation models for invasive brain-computer interfaces (BCIs).

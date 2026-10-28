@@ -443,7 +443,7 @@ div.lazy {
 .home-profile-entry {
     display: flex;
     gap: 16px;
-    align-items: center;
+    align-items: flex-start;
     margin-bottom: 19px;
 }
 
@@ -487,6 +487,7 @@ div.lazy {
 
 .home-profile-entry time {
     margin-left: auto;
+    padding-top: 2px;
     white-space: nowrap;
 }
 
@@ -721,8 +722,8 @@ div.lazy {
 
 .home-profile-sections {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 37px 56px;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 37px;
     margin-top: 46px;
 }
 
