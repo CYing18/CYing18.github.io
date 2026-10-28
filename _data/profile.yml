@@ -63,11 +63,17 @@ education:
     date: 2019.09 - 2023.06
 
 experience:
-- name: Shanghai AI Lab, Shanghai, China
+- name: Chinese Institute for Brain Research (CIBR), Beijing, China
+  logo: /assets/images/badges/CIBR.png
+  position: Research Intern
+  description: Worked on foundation models for invasive brain-computer interfaces (BCIs).
+  date: 2026.04 – 2026.08
+
+- name: Shanghai AI Laboratory, Shanghai, China
   logo: /assets/images/badges/shailab.png
-  position: Research Intern at General Medical Group
-  description: I work on multi-modal pathology foundation models.
-  date: 2024.05 - 2026.02
+  position: Research Intern, General Medical Group
+  description: Worked on multimodal foundation models for computational pathology.
+  date: 2024.05 – 2026.02
 
 awards:
 - name: EMNLP Outstanding Paper Award
