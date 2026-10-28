@@ -529,6 +529,17 @@ div.lazy {
     padding: 6px 0 2px;
 }
 
+.home-visitor-content {
+    display: flex;
+    gap: 28px;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-visitor-map {
+    flex: 0 1 420px;
+}
+
 .home-visitor-map > a {
     display: block;
     width: min(100%, 420px);
@@ -541,6 +552,24 @@ div.lazy {
     height: auto;
     border: 0 !important;
     opacity: 0.88;
+}
+
+.home-visitor-total {
+    display: block;
+    flex: 0 0 auto;
+    line-height: 0;
+    transition: opacity 160ms ease, transform 160ms ease;
+}
+
+.home-visitor-total:hover {
+    opacity: 0.82;
+    transform: translateY(-1px);
+}
+
+.home-visitor-total img {
+    display: block;
+    width: 118px;
+    height: auto;
 }
 
 .homepage .footer {
@@ -988,6 +1017,19 @@ div.lazy {
     .home-visitor-map {
         justify-content: center;
         padding-top: 4px;
+    }
+
+    .home-visitor-content {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .home-visitor-map {
+        width: 100%;
+    }
+
+    .home-visitor-total img {
+        width: 108px;
     }
 
     .homepage .footer {
