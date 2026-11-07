@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5, h6,
 .site-navbar-links .nav-link {
     position: relative;
     padding: 0.75rem 0.15rem !important;
-    color: #737b83 !important;
+    color: #4b5965 !important;
     font-family: inherit;
     font-size: 14px;
     font-weight: 400;
@@ -188,7 +188,7 @@ div.lazy {
 }
 
 .homepage .navbar .nav-link {
-    color: #7b8188 !important;
+    color: #4b5965 !important;
 }
 
 .homepage .navbar .nav-item.active .nav-link {
@@ -221,7 +221,7 @@ div.lazy {
 
 .home-hero h1 span {
     margin-left: 12px;
-    color: #7d858c;
+    color: #4b5965;
     font-size: 1.5rem;
     font-weight: 400;
     letter-spacing: 0;
@@ -229,13 +229,13 @@ div.lazy {
 
 .home-affiliation {
     margin-bottom: 23px;
-    color: #5e6872;
+    color: #3d4d5a;
     font-size: 0.9375rem;
 }
 
 .home-bio p {
     margin: 0 0 12px;
-    color: #424b54;
+    color: #303d48;
     font-size: 1.0625rem;
     line-height: 1.8;
 }
@@ -243,7 +243,7 @@ div.lazy {
 .home-bio a,
 .home-social a,
 .home-publication a {
-    color: #2a648b;
+    color: #205675;
 }
 
 .home-portrait {
@@ -282,7 +282,7 @@ div.lazy {
     margin-bottom: 3px;
     padding: 12px 0 27px;
     border-bottom: 1px solid #e7e9ec;
-    color: #454e58;
+    color: #303d48;
     font-size: 0.9375rem;
 }
 
@@ -294,7 +294,7 @@ div.lazy {
 }
 
 .home-news time {
-    color: #63717c;
+    color: #4b5965;
     font-size: 0.8125rem;
 }
 
@@ -371,12 +371,12 @@ div.lazy {
     gap: 11px;
     align-items: center;
     margin-bottom: 8px;
-    color: #63717c;
+    color: #4b5965;
     font-size: 0.8125rem;
 }
 
 .home-publication-meta span {
-    color: #3b6b8c;
+    color: #205675;
     font-size: 0.8125rem;
     font-weight: 500;
 }
@@ -393,18 +393,18 @@ div.lazy {
 .home-publication-authors,
 .home-publication-abstract {
     margin: 0 0 7px;
-    color: #596977;
+    color: #3d4d5a;
     font-size: 0.9375rem;
     line-height: 1.7;
 }
 
 .home-publication-authors strong {
-    color: #454f59;
+    color: #303d48;
     font-weight: 600;
 }
 
 .home-publication-abstract {
-    color: #596977;
+    color: #3d4d5a;
     line-height: 1.8;
 }
 
@@ -420,7 +420,7 @@ div.lazy {
 
 .home-scroll-hint {
     margin: 10px 20px 0 0;
-    color: #63717c;
+    color: #4b5965;
     font-size: 0.8125rem;
     text-align: right;
 }
@@ -466,13 +466,13 @@ div.lazy {
 
 .home-profile-entry span,
 .home-profile-entry time {
-    color: #63717c;
+    color: #4b5965;
     font-size: 0.875rem;
 }
 
 .home-profile-entry p {
     margin: 4px 0 0;
-    color: #505963;
+    color: #3d4d5a;
     font-size: 0.9375rem;
     line-height: 1.65;
 }
@@ -480,7 +480,7 @@ div.lazy {
 .home-profile-entry p::before {
     content: "•";
     margin-right: 7px;
-    color: #8a94a1;
+    color: #4b5965;
 }
 
 .home-profile-entry time {
@@ -494,13 +494,13 @@ div.lazy {
     gap: 25px;
     align-items: baseline;
     margin: 8px 0;
-    color: #424d59;
+    color: #303d48;
     font-size: 0.9375rem;
 }
 
 .home-services p span {
     min-width: 155px;
-    color: #596977;
+    color: #3d4d5a;
 }
 
 .home-awards p {
@@ -512,7 +512,7 @@ div.lazy {
 
 .home-awards time {
     margin-left: 10px;
-    color: #63717c;
+    color: #4b5965;
     font-size: 0.875rem;
     white-space: nowrap;
 }
@@ -581,6 +581,10 @@ div.lazy {
     font-size: 0.75rem;
 }
 
+.homepage .footer .text-muted {
+    color: #4b5965 !important;
+}
+
 .homepage .footer > .homepage-container {
     width: 100%;
 }
@@ -624,14 +628,14 @@ div.lazy {
 }
 
 .home-affiliation {
-    color: #416278;
+    color: #354f62;
     font-weight: 500;
     letter-spacing: 0;
 }
 
 .home-bio p {
     max-width: 690px;
-    color: #3f4e59;
+    color: #303d48;
 }
 
 .home-portrait {
@@ -646,7 +650,7 @@ div.lazy {
     padding: 2px 0;
     border-bottom: 0;
     border-radius: 0;
-    color: #285c7e;
+    color: #205675;
     transition: color 160ms ease;
 }
 
@@ -728,7 +732,7 @@ div.lazy {
 }
 
 .home-publication-meta span {
-    color: #286184;
+    color: #205675;
     font-weight: 600;
     letter-spacing: 0.02em;
 }
