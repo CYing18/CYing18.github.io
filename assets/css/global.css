@@ -1,13 +1,16 @@
 @charset "utf-8";
 body {
-    font-family: "Lato", sans-serif;
+    font-family: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
     font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.65;
     padding-top: 5.0rem;
 }
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-weight: 700;
+    font-weight: 600;
+    line-height: 1.3;
 }
 
 .card {
@@ -38,7 +41,6 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .text-profile-bio {
-    /* font-family: "Raleway"; */
     font-weight: 400;
 }
 
@@ -64,7 +66,7 @@ h1, h2, h3, h4, h5, h6,
     position: relative;
     padding: 0.75rem 0.15rem !important;
     color: #737b83 !important;
-    font-family: "Lato", sans-serif;
+    font-family: inherit;
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 0;
@@ -211,36 +213,35 @@ div.lazy {
 .home-hero h1 {
     margin: 0 0 10px;
     color: #252a30;
-    font-size: 39px;
+    font-size: 2.625rem;
     font-weight: 600;
-    letter-spacing: -1.1px;
+    letter-spacing: -0.025em;
     line-height: 1.2;
 }
 
 .home-hero h1 span {
     margin-left: 12px;
     color: #7d858c;
-    font-size: 23px;
+    font-size: 1.5rem;
     font-weight: 400;
-    letter-spacing: 1px;
+    letter-spacing: 0;
 }
 
 .home-affiliation {
     margin-bottom: 23px;
     color: #5e6872;
-    font-size: 14px;
+    font-size: 0.9375rem;
 }
 
 .home-bio p {
     margin: 0 0 12px;
     color: #424b54;
-    font-size: 16px;
+    font-size: 1.0625rem;
     line-height: 1.8;
 }
 
 .home-bio a,
 .home-social a,
-.home-section-heading a,
 .home-publication a {
     color: #2a648b;
 }
@@ -264,7 +265,7 @@ div.lazy {
     display: inline-flex;
     align-items: center;
     gap: 6px;
-    font-size: 12px;
+    font-size: 0.875rem;
     font-weight: 400;
 }
 
@@ -282,19 +283,19 @@ div.lazy {
     padding: 12px 0 27px;
     border-bottom: 1px solid #e7e9ec;
     color: #454e58;
-    font-size: 14px;
+    font-size: 0.9375rem;
 }
 
 .home-news h2 {
     margin: 0;
     color: #353d46;
-    font-size: 14px;
+    font-size: 0.9375rem;
     font-weight: 600;
 }
 
 .home-news time {
-    color: #8b939b;
-    font-size: 12px;
+    color: #63717c;
+    font-size: 0.8125rem;
 }
 
 .home-publications {
@@ -312,14 +313,11 @@ div.lazy {
 .home-profile-sections h2 {
     margin: 0;
     color: #252a30;
-    font-size: 22px;
+    font-size: 1.5rem;
     font-weight: 600;
-    letter-spacing: -0.4px;
+    letter-spacing: -0.015em;
 }
 
-.home-section-heading a {
-    font-size: 12px;
-}
 
 .home-publication-scroll {
     overflow-y: scroll;
@@ -373,30 +371,30 @@ div.lazy {
     gap: 11px;
     align-items: center;
     margin-bottom: 8px;
-    color: #8a929b;
-    font-size: 11px;
+    color: #63717c;
+    font-size: 0.8125rem;
 }
 
 .home-publication-meta span {
     color: #3b6b8c;
-    font-size: 12px;
+    font-size: 0.8125rem;
     font-weight: 500;
 }
 
 .home-publication h3 {
     margin: 0 0 7px;
     color: #252c33;
-    font-size: 16px;
+    font-size: 1.125rem;
     font-weight: 600;
     letter-spacing: 0;
-    line-height: 1.55;
+    line-height: 1.4;
 }
 
 .home-publication-authors,
 .home-publication-abstract {
     margin: 0 0 7px;
-    color: #727b85;
-    font-size: 13px;
+    color: #596977;
+    font-size: 0.9375rem;
     line-height: 1.7;
 }
 
@@ -406,7 +404,7 @@ div.lazy {
 }
 
 .home-publication-abstract {
-    color: #7a838d;
+    color: #596977;
     line-height: 1.8;
 }
 
@@ -417,13 +415,13 @@ div.lazy {
 }
 
 .home-publication-links a {
-    font-size: 12px;
+    font-size: 0.875rem;
 }
 
 .home-scroll-hint {
     margin: 10px 20px 0 0;
-    color: #939ba3;
-    font-size: 11px;
+    color: #63717c;
+    font-size: 0.8125rem;
     text-align: right;
 }
 
@@ -436,8 +434,8 @@ div.lazy {
 
 .home-profile-sections h2 {
     margin-bottom: 20px;
-    font-size: 21px;
-    letter-spacing: -0.35px;
+    font-size: 1.5rem;
+    letter-spacing: -0.015em;
 }
 
 .home-profile-entry {
@@ -462,20 +460,20 @@ div.lazy {
 
 .home-profile-entry strong {
     color: #343d47;
-    font-size: 15px;
-    font-weight: 500;
+    font-size: 1rem;
+    font-weight: 600;
 }
 
 .home-profile-entry span,
 .home-profile-entry time {
-    color: #858d96;
-    font-size: 13px;
+    color: #63717c;
+    font-size: 0.875rem;
 }
 
 .home-profile-entry p {
     margin: 4px 0 0;
     color: #505963;
-    font-size: 13px;
+    font-size: 0.9375rem;
     line-height: 1.65;
 }
 
@@ -497,25 +495,25 @@ div.lazy {
     align-items: baseline;
     margin: 8px 0;
     color: #424d59;
-    font-size: 14px;
+    font-size: 0.9375rem;
 }
 
 .home-services p span {
     min-width: 155px;
-    color: #7a838d;
+    color: #596977;
 }
 
 .home-awards p {
     margin: 0 0 13px;
     color: #343d47;
-    font-size: 14px;
+    font-size: 0.9375rem;
     line-height: 1.75;
 }
 
 .home-awards time {
     margin-left: 10px;
-    color: #858d96;
-    font-size: 12px;
+    color: #63717c;
+    font-size: 0.875rem;
     white-space: nowrap;
 }
 
@@ -580,7 +578,7 @@ div.lazy {
     padding: 12px 0 !important;
     background: #fff !important;
     border-color: #e7e9ec !important;
-    font-size: 10px;
+    font-size: 0.75rem;
 }
 
 .homepage .footer > .homepage-container {
@@ -622,14 +620,13 @@ div.lazy {
 
 .home-hero h1 {
     color: #172c3a;
-    font-family: "Fira Sans", sans-serif;
-    font-size: 43px;
+    font-size: 2.625rem;
 }
 
 .home-affiliation {
     color: #416278;
-    font-weight: 600;
-    letter-spacing: 0.01em;
+    font-weight: 500;
+    letter-spacing: 0;
 }
 
 .home-bio p {
@@ -666,8 +663,7 @@ div.lazy {
 
 .home-news h2 {
     color: #24465d;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
+    letter-spacing: 0;
 }
 
 .home-news h2::before {
@@ -693,8 +689,7 @@ div.lazy {
 .home-section-heading h2,
 .home-profile-sections h2 {
     color: #1c3d55;
-    font-family: "Fira Sans", sans-serif;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .home-section-heading h2::after,
@@ -707,11 +702,6 @@ div.lazy {
     content: "";
 }
 
-.home-section-heading a {
-    padding: 5px 0;
-    color: #2d6386;
-    font-weight: 600;
-}
 
 .home-publication-scroll {
     padding-right: 16px;
@@ -770,7 +760,7 @@ div.lazy {
 
 .home-profile-sections h2 {
     margin-bottom: 22px;
-    font-size: 20px;
+    font-size: 1.5rem;
 }
 
 .home-profile-entry:last-child,
@@ -854,19 +844,19 @@ div.lazy {
     .home-hero h1 {
         grid-column: 1;
         margin: 0;
-        font-size: 30px;
+        font-size: 2rem;
     }
 
     .home-hero h1 span {
         margin-left: 7px;
-        font-size: 18px;
+        font-size: 1.25rem;
     }
 
     .home-affiliation {
         grid-column: 1;
         align-self: start;
         margin: 0;
-        font-size: 10px;
+        font-size: 0.875rem;
     }
 
     .home-portrait {
@@ -883,7 +873,7 @@ div.lazy {
     }
 
     .home-bio p {
-        font-size: 14px;
+        font-size: 1rem;
         line-height: 1.85;
     }
 
@@ -895,7 +885,7 @@ div.lazy {
     .home-social a {
         gap: 4px;
         padding: 2px 0;
-        font-size: 10px;
+        font-size: 0.875rem;
     }
 
     .home-social i {
@@ -907,15 +897,15 @@ div.lazy {
         gap: 16px;
         margin-top: 20px;
         padding: 11px 0;
-        font-size: 12px;
+        font-size: 0.875rem;
     }
 
     .home-news h2 {
-        font-size: 13px;
+        font-size: 0.875rem;
     }
 
     .home-news time {
-        font-size: 10px;
+        font-size: 0.8125rem;
     }
 
     .home-publications {
@@ -923,12 +913,9 @@ div.lazy {
     }
 
     .home-section-heading h2 {
-        font-size: 19px;
+        font-size: 1.3125rem;
     }
 
-    .home-section-heading a {
-        font-size: 10px;
-    }
 
     .home-publication-scroll {
         padding-right: 12px;
@@ -945,16 +932,16 @@ div.lazy {
     }
 
     .home-publication h3 {
-        font-size: 16px;
+        font-size: 1.0625rem;
     }
 
     .home-publication-meta span {
-        font-size: 11px;
+        font-size: 0.8125rem;
     }
 
     .home-publication-authors,
     .home-publication-abstract {
-        font-size: 12px;
+        font-size: 0.875rem;
     }
 
     .home-profile-sections {
@@ -972,11 +959,22 @@ div.lazy {
     }
 
     .home-profile-sections h2 {
-        font-size: 20px;
+        font-size: 1.3125rem;
     }
 
     .home-profile-entry {
-        gap: 11px;
+        flex-wrap: wrap;
+        gap: 6px 11px;
+    }
+
+    .home-profile-entry div {
+        flex: 1;
+    }
+
+    .home-profile-entry time {
+        width: calc(100% - 40px);
+        margin-left: 40px;
+        padding-top: 0;
     }
 
     .home-profile-entry img {
@@ -986,34 +984,34 @@ div.lazy {
     }
 
     .home-profile-entry strong {
-        font-size: 13px;
+        font-size: 0.9375rem;
     }
 
     .home-profile-entry span,
     .home-profile-entry time {
-        font-size: 11px;
+        font-size: 0.8125rem;
     }
 
     .home-profile-entry p {
-        font-size: 12px;
+        font-size: 0.875rem;
     }
 
     .home-services p {
         gap: 12px;
-        font-size: 13px;
+        font-size: 0.875rem;
     }
 
     .home-services p span {
         min-width: 133px;
-        font-size: 12px;
+        font-size: 0.875rem;
     }
 
     .home-awards p {
-        font-size: 13px;
+        font-size: 0.875rem;
     }
 
     .home-awards time {
-        font-size: 12px;
+        font-size: 0.8125rem;
     }
 
     .home-visitor-map {
@@ -1042,6 +1040,6 @@ div.lazy {
 
     .homepage .footer {
         width: calc(100% - 46px);
-        font-size: 9px;
+        font-size: 0.75rem;
     }
 }

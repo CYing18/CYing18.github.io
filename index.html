@@ -43,7 +43,6 @@ container_class: homepage-container
 <section class="home-publications" aria-labelledby="selected-publications-title">
     <div class="home-section-heading">
         <h2 id="selected-publications-title">Selected Publications</h2>
-        <a href="{{ '/publications' | relative_url }}">All publications →</a>
     </div>
 
     <div class="home-publication-scroll" tabindex="0" role="region" aria-label="Selected publications; scroll to see more">
@@ -142,6 +141,7 @@ document.addEventListener("DOMContentLoaded", function () {
         list.style.height = Math.ceil(height) + "px";
     }
     showThreePublications();
+    if (document.fonts) document.fonts.ready.then(showThreePublications);
     window.addEventListener("load", showThreePublications);
     window.addEventListener("resize", showThreePublications);
 });
